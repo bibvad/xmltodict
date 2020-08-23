@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserFieldsDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UserFields>
+    <UserField Name="Адрес: Улица\Дом" Code="streetHouse" Mnemonics="" Removed="false" />
+    <UserField Name="Диагноз" Code="DiagnosisList" Mnemonics="" Removed="false" />
+    <UserField Name="Диагноз: название" Code="diagnosis_text" Mnemonics="" Removed="false" />
+    <UserField Name="Код контингента" Code="contingentCode" Mnemonics="continge" Removed="false" />
+    <UserField Name="Комментарий" Code="comment" Mnemonics="" Removed="false" />
+    <UserField Name="Адрес: Город" Code="CityDictionary" Mnemonics="" Removed="false" />
+    <UserField Name="Адрес: Район" Code="District" Mnemonics="" Removed="false" />
+    <UserField Name="Флаг - стационар или поликлиника" Code="is_stac" Mnemonics="" Removed="true" />
+    <UserField Name="Диагноз: код" Code="diagnosis" Mnemonics="" Removed="true" />
+    <UserField Name="№ по журналу (БАК)" Code="bakNum" Mnemonics="" Removed="true" />
+    <UserField Name="Исполнитель" Code="executor" Mnemonics="" Removed="true" />
+    <UserField Name="Адрес: город" Code="CityDictionary" Mnemonics="" Removed="true" />
+    <UserField Name="Адрес: край/область" Code="District1" Mnemonics="" Removed="true" />
+    <UserField Name="Полис: номер" Code="policyNr" Mnemonics="policyNr" Removed="true" />
+    <UserField Name="Адрес: улица/дом" Code="streetHouse1" Mnemonics="" Removed="true" />
+    <UserField Name="Адрес: Улица\Дом" Code="streetHouse1" Mnemonics="" Removed="true" />
+  </UserFields>
+</UserFieldsDictionary>

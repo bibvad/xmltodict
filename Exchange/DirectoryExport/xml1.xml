@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <BiomaterialsDictionary type="dict">
+        <key name="@xmlns:xsd" type="str">http://www.w3.org/2001/XMLSchema</key>
+        <key name="@xmlns:xsi" type="str">http://www.w3.org/2001/XMLSchema-instance</key>
+        <Biomaterials type="dict">
+            <Biomaterial type="list">
+                <item type="dict">
+                    <key name="@Name" type="str">
+                        Соскоб из носа и/или ротоглотки
+                    </key>
+                    <key name="@Code" type="str">
+                        18
+                    </key>
+                    <key name="@Mnemonics" type="str">СоскНосРГ</key>
+                    <key name="@Removed" type="str">false</key>
+                </item>
+                <item type="dict">
+                    <key name="@Name" type="str">
+                        Эякулят</key>
+                    <key name="@Code" type="str">12</key>
+                    <key name="@Mnemonics" type="str">ЭЯ</key>
+                    <key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Мазок с ш/м и цервик.канала</key><key name="@Code" type="str">15</key><key name="@Mnemonics" type="str">ЦКМаз</key><key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Кровь с ЭДТА</key><key name="@Code" type="str">2</key><key name="@Mnemonics" type="str">КровьЭТДА</key><key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Моча</key><key name="@Code" type="str">3</key><key name="@Mnemonics" type="str">Моча</key><key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Кровь с цитрат Na-3,8%</key><key name="@Code" type="str">19</key><key name="@Mnemonics" type="str">КровтЦитрNа</key><key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Сыворотка</key><key name="@Code" type="str">1</key><key name="@Mnemonics" type="str">Сыв</key><key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Соскоб с перианальных складок</key><key name="@Code" type="str">14</key><key name="@Mnemonics" type="str">СоскПериан</key><key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Соскоб урогенитальный,кровь</key><key name="@Code" type="str">8</key><key name="@Mnemonics" type="str">СоскУГ_Кр</key><key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Мазок из зева</key><key name="@Code" type="str">17</key><key name="@Mnemonics" type="str">ЗевМаз</key><key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Соскоб цервикальный</key><key name="@Code" type="str">7</key><key name="@Mnemonics" type="str">СоскЦерв</key><key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Мокрота</key><key name="@Code" type="str">6</key><key name="@Mnemonics" type="str">Мокрота</key><key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Соскоб урогенитальный</key><key name="@Code" type="str">10</key><key name="@Mnemonics" type="str">СоскУГ</key><key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Мазок на предметном стекле</key><key name="@Code" type="str">5</key><key name="@Mnemonics" type="str">Мазок</key><key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Кровь венозная</key><key name="@Code" type="str">9</key><key name="@Mnemonics" type="str">Кровь</key><key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Кал</key><key name="@Code" type="str">4</key><key name="@Mnemonics" type="str">Кал</key><key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Соскоб</key><key name="@Code" type="str">11</key><key name="@Mnemonics" type="str">Соскоб</key><key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Мазок из носа</key><key name="@Code" type="str">13</key><key name="@Mnemonics" type="str">НомМаз</key><key name="@Removed" type="str">false</key></item><item type="dict"><key name="@Name" type="str">Соскоб из носа и/или зева</key><key name="@Code" type="str">16</key><key name="@Mnemonics" type="str">СоскНосЗев</key><key name="@Removed" type="str">false</key></item></Biomaterial></Biomaterials></BiomaterialsDictionary></root>

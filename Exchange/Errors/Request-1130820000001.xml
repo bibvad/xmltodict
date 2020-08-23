@@ -1,0 +1,30 @@
+LIS-501 Сессия закончилась
+<?xml version="1.0" encoding="utf-8"?>
+<Request xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RequestCode>2008200005</RequestCode>
+  <HospitalCode>1</HospitalCode>
+  <DepartmentCode>001</DepartmentCode>
+  <DepartmentName>TEST</DepartmentName>
+  <SamplingDate>2020-08-13T15:01:14.8612481+05:00</SamplingDate>
+  <Patient>
+    <Code>138029</Code>
+    <FirstName>ТЕСТ</FirstName>
+    <LastName>1ТЕСТОВ</LastName>
+    <MiddleName>ТЕСТОВИЧ</MiddleName>
+    <BirthDay>31</BirthDay>
+    <BirthMonth>3</BirthMonth>
+    <BirthYear>1972</BirthYear>
+    <Sex>1</Sex>
+  </Patient>
+  <Samples>
+    <Sample>
+      <BiomaterialCode>1</BiomaterialCode>
+      <Barcode>2008200005</Barcode>
+      <Targets>
+        <Target>
+          <Code>4.10</Code>
+        </Target>
+      </Targets>
+    </Sample>
+  </Samples>
+</Request>

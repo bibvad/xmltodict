@@ -1,0 +1,2020 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TargetsDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Targets>
+    <Target Name="Иссдедование гормонов поджелудочной железы. Инсулин" Code="5.12" Mnemonics="Инсулин" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Инсулин" Code="5.12.01" Mnemonics="ИнсулитмкЕД/мл" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение гликированного гемоглобина(HbA1c)" Code="4.23" Mnemonics="HbA1c" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Исследование гормонов поджелудочной железы. С- пептид" Code="5.13" Mnemonics="С- пептид" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="С-пептид" Code="5.13.01" Mnemonics="С-пепттнг/мл" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение гомоцистеина" Code="4.24" Mnemonics="Гомоцист" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Исследование ферментов пищеварительной системы. Пепсиноген 1" Code="5.14" Mnemonics="Пепс Ген 1" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Пепсиноген 1" Code="5.14.01" Mnemonics="Пепсинтмкг/л" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Клинический анализ крови с лейкоцитарной формулой+СОЭ" Code="1.01" Mnemonics="ОАК+СОЭ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Лейкоциты (WBC)" Code="1.01.01" Mnemonics="WBC" Removed="false" />
+        <Test Name="Эритроциты (RBC)" Code="1.01.02" Mnemonics="RBC" Removed="false" />
+        <Test Name="Гемоглобин(HGB)" Code="1.01.03" Mnemonics="HGB" Removed="false" />
+        <Test Name="Гематокрит(HCT)" Code="1.01.04" Mnemonics="HCT" Removed="false" />
+        <Test Name="Средний обьем эритроцита(MCV)" Code="1.01.05" Mnemonics="MCV" Removed="false" />
+        <Test Name="Среднее содержание гемоглобина (HCH)" Code="1.01.06" Mnemonics="HCH" Removed="false" />
+        <Test Name="Средняя концентрация гемоглобина (MCHC)" Code="1.01.07" Mnemonics="MCHC" Removed="false" />
+        <Test Name="Индекс распределения эритроцитов(RDW-SD)" Code="1.01.08" Mnemonics="RDW-SD" Removed="false" />
+        <Test Name="Индекс распределения эритроцитов(RDW-CV)" Code="1.01.09" Mnemonics="RDW-SV" Removed="false" />
+        <Test Name="Тромбоциты(PLT)" Code="1.01.10" Mnemonics="PLT" Removed="false" />
+        <Test Name="Средний обьем тромбоцитов(MPV)" Code="1.01.11" Mnemonics="MPV" Removed="false" />
+        <Test Name="Тромбокрит(PCT)" Code="1.01.12" Mnemonics="PCT" Removed="false" />
+        <Test Name="Индекс рапределения тромбоцитов(PDV)" Code="1.01.13" Mnemonics="PDV" Removed="false" />
+        <Test Name="Нейтрофилы (NEUT)abs" Code="1.01.14" Mnemonics="(NEUT)abs" Removed="false" />
+        <Test Name="Лимфоциты(LYMP)abs" Code="1.01.15" Mnemonics="(LYMP)abs" Removed="false" />
+        <Test Name="Эозинофилы(EO)abs" Code="1.01.17" Mnemonics="(EO)abs" Removed="false" />
+        <Test Name="Базофилы(BASO)abs" Code="1.01.18" Mnemonics="(BASO)abs" Removed="false" />
+        <Test Name="Нейтрофилы(NEUT%)" Code="1.01.19" Mnemonics="(NEUT%)" Removed="false" />
+        <Test Name="Лимфоциты(LYMР%)" Code="1.01.20" Mnemonics="(LYMР%)" Removed="false" />
+        <Test Name="Моноциты(MONO%)" Code="1.01.21" Mnemonics="(MONO%)" Removed="false" />
+        <Test Name="Эозинофилы(EO%)" Code="1.01.22" Mnemonics="(EO%)" Removed="false" />
+        <Test Name="Базофилы(BASO%)" Code="1.01.23" Mnemonics="(BASO%)" Removed="false" />
+        <Test Name="Скорость оседания эритроцитов(СОЭ) по Панченкову" Code="1.01.24" Mnemonics="СОЭ" Removed="false" />
+        <Test Name="Моноциты(MONO)abs" Code="1.01.16" Mnemonics="(MONO)abs" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование ферментов пищеварительной системы. Пепсиноген 2" Code="5.15" Mnemonics="Пепс Ген 2" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Пепсиноген 2" Code="5.15.01" Mnemonics="Пепсинтмкг/л" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Аллерген f49-  яблоко,IGE(ImmunoCAP)" Code="5.92" Mnemonics="ImmCAPf49" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Аллерген f 33- апельсин,IgE(ImmunoCAP)" Code="5.91" Mnemonics="ImmCAPf33" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Аллерген f 92-  банан,IgE(ImmunoCAP)" Code="5.93" Mnemonics="ImmCAPf92" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Исследование гормонов щитовидной железы. Прокальцитонин" Code="5.11" Mnemonics="Прокальц" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Прокальцитонин" Code="5.11.01" Mnemonics="Прокалтнг/мл" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение витамина В12(цианокобаламин)" Code="4.22" Mnemonics="B12" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Исследование на онкомаркеры. НЕ 4" Code="5.18" Mnemonics="HE 4" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="НЕ 4" Code="5.18.01" Mnemonics="НЕ 4" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование уровня ретикулоцитов в крови" Code="1.02" Mnemonics="РЕТ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="подсчет количества ретикулоцитов" Code="1.02.01" Mnemonics="подсчет%" Removed="false" />
+        <Test Name="подсчет количества эритроцитов с базафильной зернистостью" Code="1.02.02" Mnemonics="подсчет" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение калия,натрия,хлора в сыворотке" Code="4.26" Mnemonics="K_Na_Cl" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Хлориды" Code="4.31.01" Mnemonics="Cl" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование скорости оседания эритроцитов (СОЭ)" Code="1.03" Mnemonics="СОЭ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Скорость оседания эритроцитов(СОЭ) по Панченкову" Code="1.01.24" Mnemonics="СОЭ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение кальция в сыворотке" Code="4.27" Mnemonics="Ca" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Кальций" Code="4.27.01" Mnemonics="Ca" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование на онкомаркеры. СА 15-3" Code="5.19" Mnemonics="СА 15-3" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="СА 15-3" Code="5.19.01" Mnemonics="СА 15-тЕд/мл" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование на онкомары. СА 19-9" Code="5.20" Mnemonics="СА 19-9" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="СА 19-9" Code="5.20.01" Mnemonics="СА 19-тЕд/мл" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование на онкомаркеры. СА 72-4" Code="5.21" Mnemonics="СА 72-4" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="СА 72-4" Code="5.21.01" Mnemonics="СА 72-тЕд/мл" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование базафильной зернистости эритроцитов" Code="1.04" Mnemonics="БазЭрит" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="подсчет количества эритроцитов с базафильной зернистостью" Code="1.04.01" Mnemonics="подсчет" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение магния в сыворотке" Code="4.28" Mnemonics="Mg" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Магний" Code="4.28.01" Mnemonics="Mg" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование на онкомаркеры. СА-125" Code="5.17" Mnemonics="CA-125" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="СА-125" Code="5.17.01" Mnemonics="СА-125тЕд/мл" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение железа в сыворотке" Code="4.25" Mnemonics="Fe" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Железо" Code="4.25.01" Mnemonics="Fe" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование на онкомаркеры. Раковый эмбриональный антиген (РЭА)" Code="5.16" Mnemonics="РЭА" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Раковый эмбриональный антиген" Code="5.16.01" Mnemonics="РЭА" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование уровня общего гемоглобина в крови" Code="1.06" Mnemonics="Hb" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Гемоглобин(HGB)" Code="1.01.03" Mnemonics="HGB" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Цинк в сыворотке" Code="4.30" Mnemonics="Zn" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Цинк" Code="4.30.01" Mnemonics="Zn" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование уровня эритроцитов в крови" Code="1.07" Mnemonics="RBC" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Эритроциты (RBC)" Code="1.01.02" Mnemonics="RBC" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение хлоридов в крови" Code="4.31" Mnemonics="Cl" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Хлориды" Code="4.31.01" Mnemonics="Cl" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Цветовой показатель" Code="1.08" Mnemonics="MCH" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Средняя концентрация гемоглобина (MCHC)" Code="1.01.07" Mnemonics="MCHC" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение липазы" Code="4.32" Mnemonics="Липаза" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Липаза" Code="4.32.01" Mnemonics="Липаза" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение фосфора в сыворотке" Code="4.29" Mnemonics="P" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Фосфор" Code="4.29.01" Mnemonics="P" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Клинический анализ крови (без лейкоформулы)+СОЭ" Code="1.05" Mnemonics="ОАК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Лейкоциты (WBC)" Code="1.01.01" Mnemonics="WBC" Removed="false" />
+        <Test Name="Эритроциты (RBC)" Code="1.01.02" Mnemonics="RBC" Removed="false" />
+        <Test Name="Гемоглобин(HGB)" Code="1.01.03" Mnemonics="HGB" Removed="false" />
+        <Test Name="Гематокрит(HCT)" Code="1.01.04" Mnemonics="HCT" Removed="false" />
+        <Test Name="Средний обьем эритроцита(MCV)" Code="1.01.05" Mnemonics="MCV" Removed="false" />
+        <Test Name="Среднее содержание гемоглобина (HCH)" Code="1.01.06" Mnemonics="HCH" Removed="false" />
+        <Test Name="Средняя концентрация гемоглобина (MCHC)" Code="1.01.07" Mnemonics="MCHC" Removed="false" />
+        <Test Name="Индекс распределения эритроцитов(RDW-SD)" Code="1.01.08" Mnemonics="RDW-SD" Removed="false" />
+        <Test Name="Индекс распределения эритроцитов(RDW-CV)" Code="1.01.09" Mnemonics="RDW-SV" Removed="false" />
+        <Test Name="Тромбоциты(PLT)" Code="1.01.10" Mnemonics="PLT" Removed="false" />
+        <Test Name="Средний обьем тромбоцитов(MPV)" Code="1.01.11" Mnemonics="MPV" Removed="false" />
+        <Test Name="Тромбокрит(PCT)" Code="1.01.12" Mnemonics="PCT" Removed="false" />
+        <Test Name="Индекс рапределения тромбоцитов(PDV)" Code="1.01.13" Mnemonics="PDV" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование уровня гематокрита в крови" Code="1.10" Mnemonics="HCT" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Гематокрит(HCT)" Code="1.01.04" Mnemonics="HCT" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение альбумина в крови" Code="4.34" Mnemonics="Альбум" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Альбумин" Code="4.34.01" Mnemonics="Альбумин" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение уровня лейкоцитов в крови" Code="1.11" Mnemonics="WBC" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Лейкоциты (WBC)" Code="1.01.01" Mnemonics="WBC" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение СРБ-эспресс тест (латекс)" Code="4.35" Mnemonics="СРБ-эксп" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="С-реактивный белок" Code="4.35.01" Mnemonics="CРБ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование уровня тромбоцитов в крови" Code="1.09" Mnemonics="PLT" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Тромбоциты(PLT)" Code="1.01.10" Mnemonics="PLT" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение лактата" Code="4.33" Mnemonics="Лактат" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Лактат" Code="4.33.01" Mnemonics="Лактат" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования ЦМВ ДНК(реал-тайм ПЦР)" Code="6.24" Mnemonics="CMV ДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name=" ЦМВ ДНК(реал-тайм ПЦР)" Code="6.24.01" Mnemonics="ЦМВ ДНК" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Helicobacter pylori ДНК(реал-тайм ПЦР)" Code="6.25" Mnemonics="Helic_ ДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name=" Helicobacter pylori ДНК(реал-тайм ПЦР)" Code="6.25.01" Mnemonics="Helicob" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. ВПЧ ВКР  скрин ДНК(реал-тайм ПЦР)" Code="6.22" Mnemonics="ВПЧ ВКР" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Neisseria gonorrhoeae ДНК(реал-тайм ПЦР)" Code="6.23" Mnemonics="N.gonorДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name=" Neisseria gonorrhoeae ДНК(реал-тайм ПЦР)" Code="6.23.01" Mnemonics="Neisser" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение антигена D системы Резус (резус-фактор)" Code="1.13" Mnemonics="Rh" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="резус-фактор" Code="1.13.1" Mnemonics="резус-т" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение групп крови по системеАВО и антигена D резус(резус-фактор)" Code="1.14" Mnemonics="AB0+Rh" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Группы крови" Code="1.12.1" Mnemonics="групКров" Removed="false" />
+        <Test Name="резус-фактор" Code="1.13.1" Mnemonics="резус-т" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение групп крови по системе АВО" Code="1.12" Mnemonics="AB0" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Группы крови" Code="1.12.1" Mnemonics="групКров" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Соскоб с периональных складок  на энтеробиоз(Enterobios vermicularis)" Code="2.10" Mnemonics="Энтеробиоз" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб с перианальных складок" Code="14" Mnemonics="СоскПериан" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Энтеробиоз(Enterobios vermicularis)" Code="2.10.01" Mnemonics="энтероб" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Микроскопическое исследование мазка со  слизистой оболочки носа на эозинофилы" Code="2.09" Mnemonics="Эозинофилы" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Мазок из носа" Code="13" Mnemonics="НомМаз" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Мазок  со  слизистой оболочки носа на эозинофилы" Code="2.09.01" Mnemonics="мазок тп/зр" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение  антиэритроцитарных антител" Code="1.17" Mnemonics="АнтиЭритрАТ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Аллерген f44- клубника,IgE(ImmunoCAP)" Code="5.94" Mnemonics="ImmCAPf44" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Определение глюкозы в сыворотке" Code="4.01" Mnemonics="Глюкоза" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Глюкоза" Code="4.01.01" Mnemonics="Глюкоза" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Аллерген f 291-  цветная капуста,IgE(ImmunoCAP)" Code="5.96" Mnemonics="ImmCAPf291" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Аллерген f 208- лимон,IgE(ImmunoCAP)" Code="5.95" Mnemonics="ImmCAPf208" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Определение антигена KeLL" Code="1.15" Mnemonics="Ат_Kell" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Определение фенотипа по антигенам C, c, E, e, Cw, K, k" Code="1.16" Mnemonics="ФеноТип" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Gardnerella vaginalis,ДНК (реал-тайм ПЦР)" Code="6.13" Mnemonics="GardnДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Gardnerella vaginalis,ДНК (реал-тайм ПЦР)" Code="6.13.01" Mnemonics="Gardneт" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Анализ кала на скрытую кровь" Code="2.11" Mnemonics="СкрКровьКал" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кал" Code="4" Mnemonics="Кал" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Кал на скрытую кровь" Code="2.11.01" Mnemonics="СкрытКровь" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Candida albicans,ДНК (реал-тайм ПЦР)" Code="6.12" Mnemonics="CandДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Candida albicans,ДНК (реал-тайм ПЦР)" Code="6.12.01" Mnemonics="Candidт" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Скрининговое исследование на предмет наличия наркотических,психотропных,сильнодействующих веществ и их метаболитов" Code="2.12" Mnemonics="Нарко" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Моча" Code="3" Mnemonics="Моча" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Анализ кала на яйца и личинки гельминтов,простейших и их цисты (Parasep)" Code="2.13" Mnemonics="Parasep" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кал" Code="4" Mnemonics="Кал" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Кал на яйца и личинки гельминтов,простейших и их цисты (Parasep)" Code="2.13.01" Mnemonics="Я/гельм" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Аллерген f 284  мясо индейки,IgE(ImmunoCAP)" Code="5.98" Mnemonics="ImmCAPf284" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Коагулограмма №1(протромбин(по Квику),МНО)" Code="3.01" Mnemonics="Коагул1" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с цитрат Na-3,8%" Code="19" Mnemonics="КровтЦитрNа" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Human Papillomavirus 6/11(HPV 6/11),ДНК(реал-тайм ПЦР)" Code="6.27" Mnemonics="ВПЧ 6/11" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб" Code="11" Mnemonics="Соскоб" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Mycobacterium tuberculosis,ДНК (реал-тайм ПЦР)" Code="6.26" Mnemonics="M.tuber ДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб" Code="11" Mnemonics="Соскоб" Removed="false" />
+        <Biomaterial Name="Кровь венозная" Code="9" Mnemonics="Кровь" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Определение аланинаминотрасферазы (АЛТ)" Code="4.10" Mnemonics="АЛТ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Аланинаминотрасфераза" Code="4.10.01" Mnemonics="АЛТ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Аллерген f 225- тыква ,IgE(ImmunoCAP)" Code="5.97" Mnemonics="ImmCAPf225" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Цитологическое исследование мазков с поверхности шейки матки и цервикального канала на атипию." Code="2.14" Mnemonics="ЦитАтипия" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Мазок с ш/м и цервик.канала" Code="15" Mnemonics="ЦКМаз" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Антитела к капсидному антигену вируса Эпштейна-Барр(IgG)с определением авидности" Code="5.79" Mnemonics="ВЭБIgG+AV" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Исследование половых гормонов. Лютеинизирующий гормон(ЛГ)" Code="5.59" Mnemonics="ЛГ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Лютеинизирующий гормон" Code="5.59.01" Mnemonics="ЛГ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Диагностика системной красной волчанки" Code="5.80" Mnemonics="КраснВолч" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Исследование половых гормонов. Фолликулостимулирующий гормон(ФСГ)" Code="5.60" Mnemonics="ФСГ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Фоликулостимулирующий гормон" Code="5.60.01" Mnemonics="ФСГ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Железосвязывающая способность сыворотки" Code="4.43" Mnemonics="ЖСС" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Коагулограмма№3(протромбин(по Квику)МНО,фибриноген,АТIII,АЧТВ,D-димер)" Code="3.03" Mnemonics="Коагул3" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с цитрат Na-3,8%" Code="19" Mnemonics="КровтЦитрNа" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Bordetella pertussis,ДНК (реал-тайм ПЦР)" Code="6.29" Mnemonics="КоклюшДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь венозная" Code="9" Mnemonics="Кровь" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Тромбиновое время" Code="3.05" Mnemonics="ТВ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с цитрат Na-3,8%" Code="19" Mnemonics="КровтЦитрNа" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Фибриноген" Code="3.04" Mnemonics="Фибриноген" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с цитрат Na-3,8%" Code="19" Mnemonics="КровтЦитрNа" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Исследование половых гормонов. Тестостерон" Code="5.64" Mnemonics="Тестостерон" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Тестостерон" Code="5.64.01" Mnemonics="Тест" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Медь в сыворотке" Code="4.44" Mnemonics="Медь" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Ранняя диагностика беременности. Бета-субъединица хорионического гонадотропина человека (ХГЧ)" Code="5.26" Mnemonics="ХГЧ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Бета-субъединица хорионического гонадотропина человека" Code="5.26.01" Mnemonics="ХГЧ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование на онкомаркеры. Простатспецифический антиген общий (ПСА общий)" Code="5.22" Mnemonics="ПСАобщий" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Простатспецифический антиген общий" Code="5.22.01" Mnemonics="ПСА (общий)" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование половых гормонов. Прогестерон" Code="5.61" Mnemonics="Прогестерон" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Прогестерон" Code="5.61.01" Mnemonics="Прогес" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование на онкомаркеры. Альфа-фетопротеин (АФП)" Code="5.23" Mnemonics="АФП" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Альфа-фетопротеин" Code="5.23.01" Mnemonics="АФП" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование половых гормонов. Эстрадиол" Code="5.62" Mnemonics="Эстрадиол" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Эстрадиол" Code="5.62.01" Mnemonics="ЭСТ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Коагулограмма №2(протромбин(по Квику),МНО,фибриноген)" Code="3.02" Mnemonics="Коагул2" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с цитрат Na-3,8%" Code="19" Mnemonics="КровтЦитрNа" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Исследование на онкомаркеры. Определение нейронспецифической енолазы (NSE)" Code="5.24" Mnemonics="NSE" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Определение нейронспецифической енолазы -ИФА" Code="5.24.01" Mnemonics="NSE" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Anaplasma phagocytophilum, ДНК (реал-таймПЦР)" Code="6.28" Mnemonics="AnaplPhagДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб из носа и/или зева" Code="16" Mnemonics="СоскНосЗев" Removed="false" />
+        <Biomaterial Name="Соскоб из носа и/или ротоглотки" Code="18" Mnemonics="СоскНосРГ" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Исследование на кардиомаркер. NTproBNP (мозговой натрийуретический пропептид)" Code="5.25" Mnemonics="NTproBNP" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Мозговой натрийуретический пропептид" Code="5.25.01" Mnemonics="NTproBNP" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование половых гормонов. Пролактин" Code="5.63" Mnemonics="Пролактин" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Пролактин" Code="5.63.01" Mnemonics="Пролак" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Волчаночный антикоагулянт" Code="3.07" Mnemonics="ВолчАнтикоаг" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с цитрат Na-3,8%" Code="19" Mnemonics="КровтЦитрNа" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Серологическая диагностика кори,паротита и краснухи." Code="5.83" Mnemonics="КорьПаротКрасн" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Human Papillomavirus 18(HPV 18)ДНК (реал-тайм ПЦР)" Code="6.44" Mnemonics="ВПЧ18ДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+        <Biomaterial Name="Соскоб из носа и/или ротоглотки" Code="18" Mnemonics="СоскНосРГ" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="17-гидроксипрогестерон" Code="5.84" Mnemonics="17 OH" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Природно-очаговые и зоонозные вирусные инфекции. Антитела к вирусу клещевого энцефалита, IgG" Code="5.32" Mnemonics="КлещЭнцIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Антитела к вирусу клещевого энцефалита, IgG" Code="5.32.01" Mnemonics="Антител" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Вирусный гепатит В" Code="5.68" Mnemonics="HBs-Ag" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Определение антигена гепатита В" Code="5.68.01" Mnemonics="HBs-Ag" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Yersinia pseudotuberculosis,ДНК (реал-тайм ПЦР)" Code="6.33" Mnemonics="YersinPseuДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кал" Code="4" Mnemonics="Кал" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Протеин С" Code="3.08" Mnemonics="ПротC" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с цитрат Na-3,8%" Code="19" Mnemonics="КровтЦитрNа" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Вакциноуправляемые инфекции. Антитела к вирусу паротита, IgM (Mumps Virus,IgM)" Code="5.31" Mnemonics="ПаротитIgM" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Антитела к вирусу паротита, IgM (Mumps Virus, IgM)" Code="5.31.01" Mnemonics="Антител" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование гормона надпочечников. Кортизол" Code="5.65" Mnemonics="Кортизол" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Кортизол" Code="5.65.01" Mnemonics="Кор" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Ранняя диагностика беременности. Свободная бета-ХГЧ" Code="5.27" Mnemonics="Своб бетаХГЧ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Свободная бета-ХГЧ" Code="5.27.01" Mnemonics="ХГЧ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Borrelia burgdorferi s.I.,ДНК (реал-тайм ПЦР)" Code="6.30" Mnemonics="КоклюшSIДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь венозная" Code="9" Mnemonics="Кровь" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Ehrlichia chaffeensis,ДНК (реал-тайм ПЦР)" Code="6.31" Mnemonics="E.ChaffДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь венозная" Code="9" Mnemonics="Кровь" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Human Papillomaviru16 (HPV 16)ДНК (реал-тайм ПЦР)." Code="6.43" Mnemonics="ВПЧ16ДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+        <Biomaterial Name="Кровь венозная" Code="9" Mnemonics="Кровь" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Антитромбин III" Code="3.06" Mnemonics="АнтитромбинIIII" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с цитрат Na-3,8%" Code="19" Mnemonics="КровтЦитрNа" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Вакциноуправляемые инфекции. Антитела к вирусу краснухи (IgG)" Code="5.28" Mnemonics="КраснIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Антитела к вирусу краснухи (IgG)" Code="5.28.01" Mnemonics="Антител" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Вакциноуправляемые инфекции. Антитела к вирусу кори,IgG (Measles Virus,IgG)" Code="5.29" Mnemonics="КорьIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Антитела к вирусу кори, IgG (Measles Virus,IgG)" Code="5.29.01" Mnemonics="Антител" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование на ВИЧ-инфекцию. Определение антител к ВИЧ типов 1, 2 и антигена р24" Code="5.66" Mnemonics="ВИЧ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Определение антител к ВИЧ типов 1,2 и антигена р24" Code="5.66.01" Mnemonics="ВИЧ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Вирусный гепатит С" Code="5.67" Mnemonics="НСV" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Определение антител к гепапиту С" Code="5.67.01" Mnemonics="НСV" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Вакциноуправляемые инфекции. Антитела к вирусу паротита, IgG (Mumps Virus,IgG)" Code="5.30" Mnemonics="ПаротитIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Антитела к вирусу паротита, IgG (Mumps Virus, IgG)" Code="5.30.01" Mnemonics="Антител" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Leptospira,ДНК (реал-тайм ПЦР)" Code="6.32" Mnemonics="LeptospДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кал" Code="4" Mnemonics="Кал" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Бор в сыворотке" Code="4.45" Mnemonics="Бор" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Бактериоскопическое исследование мокроты(по Цилю- Нильсену)" Code="2.15" Mnemonics="Циль-Нильсен" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Мокрота" Code="6" Mnemonics="Мокрота" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Цвет" Code="2.15.01" Mnemonics="Цвет" Removed="false" />
+        <Test Name="Характер" Code="2.15.02" Mnemonics="Характер" Removed="false" />
+        <Test Name="Консистенция" Code="2.15.03" Mnemonics="Консист" Removed="false" />
+        <Test Name="Запах" Code="2.15.04" Mnemonics="Запах" Removed="false" />
+        <Test Name="Лейкоциты" Code="2.15.05" Mnemonics="лейкоцтп/зр" Removed="false" />
+        <Test Name="Эпителий плоский" Code="2.15.06" Mnemonics="эпителтп/зр" Removed="false" />
+        <Test Name="Грибки" Code="2.15.07" Mnemonics="грибки" Removed="false" />
+        <Test Name="Бактерии кислотоустойчивые" Code="2.15.08" Mnemonics="КУМ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Гастропанель (со стимуляцией)" Code="5.99.1" Mnemonics="ГастПанСтим" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Исследование на желудочно-кишечные инфекции.Helicobacter pylori -IgG" Code="5.71" Mnemonics="HelicIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Определение антител IgG к  Helicobacter pilori" Code="5.71.01" Mnemonics="Helico" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Алюминий в сыворотке" Code="4.46" Mnemonics="Алюминий" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Varicella Zoster Virus,ДНК (реал-тайм ПЦР)" Code="6.36" Mnemonics="ZosterДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь венозная" Code="9" Mnemonics="Кровь" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Определение трансферрина" Code="4.39" Mnemonics="Феррит" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Parvovirus B19,ДНК (реал-тайм ПЦР)" Code="6.37" Mnemonics="ParvovirДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь венозная" Code="9" Mnemonics="Кровь" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Природно-очаговые и зоонозные вирусные инфекции. Хантавирус-IgM(геморрагическая лихорадка с печеночным синдромом)" Code="5.37" Mnemonics="ХантIgM" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Хантавирус-IgM(геморрагическая лихорадка с печеночным синдромом)" Code="5.37.01" Mnemonics="Хантави" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Соматотропный гормон" Code="5.85" Mnemonics="СТГ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Гастропанель" Code="5.99" Mnemonics="Гастропанель" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Природно-очаговые и зоонозные вирусные инфекции. Антитела к вирусу клещевого энцефалита, IgМ" Code="5.33" Mnemonics="КлещЭнцIgM" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Антитела к вирусу клещевого энцефалита, IgМ" Code="5.33.01" Mnemonics="Антител" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Shigella и энтероинвазивные штаммы Е.coli,ДНК (реал-тайм ПЦР)" Code="6.34" Mnemonics="ShigE.coliДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кал" Code="4" Mnemonics="Кал" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Определение РФ-экспресс тест(латекс)" Code="4.36" Mnemonics="РФ-эксп" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Ревматоидный фактор" Code="4.36.01" Mnemonics="РФ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение общего белка в моче" Code="4.37" Mnemonics="ОбщБелМоч" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Моча" Code="3" Mnemonics="Моча" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Природно-очаговые и зоонозные вирусные инфекции. Антитела к вирусу бруцеллеза, IgG (Brucella, IgG)" Code="5.34" Mnemonics="БруцелIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Антитела к вирусу бруцеллеза, IgG (Brucella, IgG)" Code="5.34.01" Mnemonics="Антител" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="SARS-CoV-2-IgG" Code="5.69" Mnemonics="SARSCoV2IgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="SARS-COV-2 IgG" Code="5.69.01" Mnemonics="SARS-CO" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Природно-очаговые и зоонозные вирусные инфекции. Антитела к вирусу бруцеллеза, IgM (Brucella, IgM)" Code="5.35" Mnemonics="БруцелIgM" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Антитела к вирусу бруцеллеза, IgM (Brucella, IgM)" Code="5.35.01" Mnemonics="Антител" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="SARS-CoV-2-IgM" Code="5.70" Mnemonics="SARSCoV2IgM" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="SARS-COV-2 IgM" Code="5.70.01" Mnemonics="SARS-CO" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Influenza virus A/H1N1(sw2009),РНК (реал-тайм ПЦР)" Code="6.35" Mnemonics="ГриппРНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь венозная" Code="9" Mnemonics="Кровь" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Природно-очаговые и зоонозные вирусные инфекции. Хантавирус-IgG(геморрагическая лихорадка с печеночным синдромом)" Code="5.36" Mnemonics="ХантIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Хантавирус-IgG(геморрагическая лихорадка с печеночным синдромом)" Code="5.36.01" Mnemonics="Хантави" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение С-пептида в сыворотке" Code="4.38" Mnemonics="С-пептид" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Исследование на желудочно-кишечные инфекции.Норовирус-антиген-ИФА" Code="5.74" Mnemonics="НоровирИФА" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Определение Норовируса-антиген-ИФА" Code="5.74.01" Mnemonics="Норовир" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Adenovirus F40/41(кишечные типы вируса), ДНК(реал-тайм ПЦР)" Code="6.39" Mnemonics="АденовирКиш" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кал" Code="4" Mnemonics="Кал" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Хром в сыворотке" Code="4.48" Mnemonics="Хром" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Герпетические инфекции. Varicella Zoster Virus IgG (ветреная оспа и опоясывающий лишай)" Code="5.42" Mnemonics="ZosterIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Varicella Zoster Virus IgG (ветреная оспа и опоясывающий лишай)" Code="5.42.01" Mnemonics="Varicel" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Norovirus II,РНК (реал-тайм ПЦР)" Code="6.40" Mnemonics="NorovirIIРНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+        <Biomaterial Name="Мазок из зева" Code="17" Mnemonics="ЗевМаз" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Клинический анализ мочи с микроскопией осадка" Code="2.01" Mnemonics="ОАМ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Моча" Code="3" Mnemonics="Моча" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Билирубин" Code="2.01.01" Mnemonics="Билир" Removed="false" />
+        <Test Name="Уробилиноген" Code="2.01.02" Mnemonics="Уробил" Removed="false" />
+        <Test Name="Кетоны" Code="2.01.03" Mnemonics="Кетоны" Removed="false" />
+        <Test Name="Аскорбиновая кислота" Code="2.01.04" Mnemonics="АскорбК-та" Removed="false" />
+        <Test Name="Глюкоза" Code="2.01.05" Mnemonics="ГлюкМоч" Removed="false" />
+        <Test Name="Протеины (альбумины)" Code="2.01.06" Mnemonics="ПротАльб" Removed="false" />
+        <Test Name="Уровень РН" Code="2.01.08" Mnemonics="Phмоч" Removed="false" />
+        <Test Name="Нитриты" Code="2.01.09" Mnemonics="Нитриты" Removed="false" />
+        <Test Name="Лейкоциты" Code="2.01.10" Mnemonics="ЛейкМоч" Removed="false" />
+        <Test Name="Удельный вес" Code="2.01.11" Mnemonics="УделВес" Removed="false" />
+        <Test Name="Эритроциты" Code="2.01.12" Mnemonics="ЭритМоч" Removed="false" />
+        <Test Name="Скопления эритроцитов" Code="2.01.13" Mnemonics="СкопЭрит" Removed="false" />
+        <Test Name="Лейкоциты" Code="2.01.14" Mnemonics="ЛейкМоч#" Removed="false" />
+        <Test Name="Плоский эпителий" Code="2.01.16" Mnemonics="ПлоскЭп" Removed="false" />
+        <Test Name="Скопления лейкоцитов" Code="2.01.15" Mnemonics="СкопЛейк" Removed="false" />
+        <Test Name="Переходный эпителий" Code="2.01.17" Mnemonics="ПерехЭп" Removed="false" />
+        <Test Name="Почечный эпителий" Code="2.01.18" Mnemonics="ПочечЭп" Removed="false" />
+        <Test Name="Бактерии" Code="2.01.19" Mnemonics="БакМоч" Removed="false" />
+        <Test Name="Слизь" Code="2.01.20" Mnemonics="Слизь" Removed="false" />
+        <Test Name="Гиалиновые цилиндры" Code="2.01.21" Mnemonics="ГиалЦил" Removed="false" />
+        <Test Name="Зернистые цилиндры" Code="2.01.22" Mnemonics="ЗернЦил" Removed="false" />
+        <Test Name="Трипельфосфаты" Code="2.01.23" Mnemonics="Трипельф" Removed="false" />
+        <Test Name="Кристаллы оксалата кальция" Code="2.01.24" Mnemonics="КристОкс" Removed="false" />
+        <Test Name="Кристаллы мочевой кислоты" Code="2.01.25" Mnemonics="КрмстМочК" Removed="false" />
+        <Test Name="Аморфные фосфаты" Code="2.01.26" Mnemonics="АморфФос" Removed="false" />
+        <Test Name="Ураты" Code="2.01.27" Mnemonics="Ураты" Removed="false" />
+        <Test Name="Кровь" Code="2.01.07" Mnemonics="Кровь" Removed="false" />
+        <Test Name="Цвет" Code="2.01.00" Mnemonics="ЦветМочи" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Герпетические инфекции. Varictlla Zoster Virus IgM (ветреная оспа и опоясывающий лишай)" Code="5.43" Mnemonics="ZosterIgM" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Varictlla Zoster Virus IgM (ветреная оспа и опоясывающий лишай)" Code="5.43.01" Mnemonics="Varicel" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Марганец в сыворотке" Code="4.49" Mnemonics="Марганец" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Скрининговое обследование на гельминтозы(Opisthorhis IgG,Toxocara IgG,Trichinella IgG,Echinococcus IgG)" Code="5.75" Mnemonics="ГельмСкрин" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Opisthorhis IgG,Toxocara IgG,Trichinella IgG,Echinococcus IgG" Code="5.75.01" Mnemonics="Гельминты" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Кремний в сыворотке" Code="4.47" Mnemonics="Кремний" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Природно-очаговые и зоонозные вирусные инфекции.Инфекции респираторного тракта. Антитела суммарные к возбудителю туберкулеза (IgA, IgG, IgM)" Code="5.38" Mnemonics="TBCсумм" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Антитела суммарные к возбудителю туберкулеза (IgA, IgG, IgM)" Code="5.38.01" Mnemonics="Антител" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование на желудочно-кишечные инфекции.Ротавирус- антиген-ИФА" Code="5.72" Mnemonics="РотавирИФА" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Определение Ротовируса-антиген" Code="5.72.01" Mnemonics="Ротавир" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование на желудочно-кишечные инфекции.Аденовирус-антиген-ИФА" Code="5.73" Mnemonics="АденовирИФА" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Определение Аденовируса-антиген-ИФА" Code="5.73.01" Mnemonics="Аденовир" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение кальция ионизированного" Code="4.40" Mnemonics="Cа_иониз" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Герпетические инфекции. Антитела к вирусу простого герпеса I-II типов (IgG)" Code="5.39" Mnemonics="HHV-1,2-IgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Антитела к вирусу простого герпеса I-II типов (IgG)" Code="5.39.01" Mnemonics="Антител" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Острые кишечные инфекцие,скрининг(Shigella spp.,E.coli(EIEC),Salmonella spp.,Campylobacter spp.,Adenovirus F,Rotavirus A,Novovirus 2 генотип,Astrovirus) (РТ-ПЦР)" Code="6.38" Mnemonics="ОКИ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кал" Code="4" Mnemonics="Кал" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Определение тропонина I" Code="4.41" Mnemonics="Троп I" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Герпетические инфекции. HHV-6-IgG(герпес-6 типа)" Code="5.40" Mnemonics="HHV-6-IgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="HHV-6-IgG(герпес-6 типа)" Code="5.40.01" Mnemonics="HHV-6-I" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Герпетические инфекции. HHV-8-IgG (герпес-8 типа)" Code="5.41" Mnemonics="HHV-8-IgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="HHV-8-IgG (герпес-8 типа)" Code="5.41.01" Mnemonics="HHV-8-I" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Типирование Influenza virus A(H1N1,H3N3) РНК (реал-тайм ПЦР)" Code="6.42" Mnemonics="ГриппТип" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Мышьяк в сыворотке" Code="4.52" Mnemonics="Мышьяк" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Грибковые инфекции. Аспергилл-(Aspergillus) IgG" Code="5.47" Mnemonics="АсперIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Аспергилл-(Aspergillus) IgG" Code="5.47.01" Mnemonics="Асперги" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование на сифилис RPR(антикардиолипиновый тест/микрореакция преципитации)" Code="5.78" Mnemonics="СифилRPR" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Антитела против кардиолипина" Code="5.78.01" Mnemonics="RPR" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Taenia solium,IgG(а/т к цистицеркам свиного цепня,IgG)" Code="5.81" Mnemonics="СвинЦепIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Фемофлор Скрин (реал-тайм ПЦР)" Code="6.14" Mnemonics="Фемофлор" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Лактобактерии" Code="6.14.01" Mnemonics="Лактобт%" Removed="false" />
+        <Test Name="Лактобактерии" Code="6.14.01.1" Mnemonics="Лактобт%" Removed="false" />
+        <Test Name="Хламидии" Code="6.14.02" Mnemonics="Хламиди" Removed="false" />
+        <Test Name="Цитомегаловирус" Code="6.14.03" Mnemonics="Цитомег" Removed="false" />
+        <Test Name="Гонококк" Code="6.14.04" Mnemonics="Гонокок" Removed="false" />
+        <Test Name="Влагалищная трихомонада" Code="6.14.05" Mnemonics="Трихом" Removed="false" />
+        <Test Name="Уреаплазма" Code="6.14.06" Mnemonics="Уреапла" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Антитела к спермальным антигенам( в сперме)" Code="5.82" Mnemonics="MAR" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Эякулят" Code="12" Mnemonics="ЭЯ" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Определение прямого билирубина в сыворотке" Code="4.05" Mnemonics="ПрБилир" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Прямой билирубин" Code="4.05.01" Mnemonics="прямБил" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Копрограмма" Code="2.04" Mnemonics="Копрогр" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кал" Code="4" Mnemonics="Кал" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Цвет" Code="2.04.01" Mnemonics="ЦветКал" Removed="false" />
+        <Test Name="Консистенция" Code="2.04.02" Mnemonics="КонсКал" Removed="false" />
+        <Test Name="Форма" Code="2.04.03" Mnemonics="Форма" Removed="false" />
+        <Test Name="Мышечные волокна" Code="2.04.04" Mnemonics="мышечнтп/зр" Removed="false" />
+        <Test Name="Растительная клетчатка неперевариваемая" Code="2.04.05" Mnemonics="Раститтп/зр" Removed="false" />
+        <Test Name="Растительная клетчатка перевариваемая" Code="2.04.06" Mnemonics="Раститтп/зр" Removed="false" />
+        <Test Name="Крахмальные зерна" Code="2.04.07" Mnemonics="крахматп/зр" Removed="false" />
+        <Test Name="Лейкоциты" Code="2.04.08" Mnemonics="лейкоцтп/зр" Removed="false" />
+        <Test Name="Эритроциты" Code="2.04.09" Mnemonics="эритротп/зр" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Паразитарные инфекции. Opisthorchis,IgG" Code="5.48" Mnemonics="OpistIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Opisthorchis,IgG" Code="5.48.01" Mnemonics="Opistho" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Селен в сыворотке" Code="4.53" Mnemonics="Селен" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Никель в сыворотке" Code="4.51" Mnemonics="Никель" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Кобальт в сыворотке" Code="4.50" Mnemonics="Кобальт" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Менингококковые инфекции. Neisseria meningitidis,антитела методом РНГА" Code="5.44" Mnemonics="Менингококк" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Neisseria meningitidis,антитела методом РНГА" Code="5.44.01" Mnemonics="Neisser" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование на сифилис. Treponema pallidum,антитела" Code="5.76" Mnemonics="Сифил" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Антитела к бледной трепонеме (Treponema pallidum)" Code="5.77.01" Mnemonics="РПГА" Removed="false" />
+        <Test Name="Treponema pallidum,антитела" Code="5.76.01" Mnemonics="Trepone" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение общего белка в сыворотке" Code="4.02" Mnemonics="ОбщБелок" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Общий белок" Code="4.02.01" Mnemonics="ОбщБел" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Анализ мочи по Нечипоренко" Code="2.02" Mnemonics="Моч_Нечип" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Моча" Code="3" Mnemonics="Моча" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Лейкоциты" Code="2.02.01" Mnemonics="ЛейкНечип" Removed="false" />
+        <Test Name="Эритроциты" Code="2.02.02" Mnemonics="ЭритНечип" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Типирование и количественное определение ДНК грибов рода Candida(C.albicans,C.glabrata,C.krusei,C.parapsilosis/C.tropicalis)(реал-тайм ПЦР)" Code="6.41" Mnemonics="CandПЦР" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб из носа и/или зева" Code="16" Mnemonics="СоскНосЗев" Removed="false" />
+        <Biomaterial Name="Соскоб из носа и/или ротоглотки" Code="18" Mnemonics="СоскНосРГ" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Определение креатинина в сыворотке" Code="4.03" Mnemonics="Креатинин" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Креатинин" Code="4.03.01" Mnemonics="Креат-н" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Грибковые инфеекции. Кандида- IgG" Code="5.45" Mnemonics="КандидаIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Кандида- IgG" Code="5.45.01" Mnemonics="Кандида" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Грибковые инфекции. Кандида- IgМ" Code="5.46" Mnemonics="КандидаIgM" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Кандида- IgМ-ИФА" Code="5.46.01" Mnemonics="Кандида" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование на сифилис РПГА(реакция пассивной гемагглютинации)" Code="5.77" Mnemonics="СифилРПГА" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Определение общего билирубина в сыворотке" Code="4.04" Mnemonics="ОбщБилир" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Общий билирубин" Code="4.04.01" Mnemonics="общийБил" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Микроскопическое исследование кала на яйца и личинки гельминтов" Code="2.03" Mnemonics="Я/Гельм" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кал" Code="4" Mnemonics="Кал" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Lambilia intestinalis" Code="2.03.01" Mnemonics="Lambilт" Removed="false" />
+        <Test Name="Entamoeba" Code="2.03.02" Mnemonics="Entamoт" Removed="false" />
+        <Test Name="Opisthorchis  felinens" Code="2.03.03" Mnemonics="Opisthт" Removed="false" />
+        <Test Name="Dicrocoelium  lanceatum" Code="2.03.04" Mnemonics="Dicrocт" Removed="false" />
+        <Test Name="Fasciola  hepatika" Code="2.03.05" Mnemonics="Fascioт" Removed="false" />
+        <Test Name="Nanophyetus  schikhobalowi" Code="2.03.06" Mnemonics="Nanophт" Removed="false" />
+        <Test Name="Taenia solium" Code="2.03.07" Mnemonics="Taeniaт" Removed="false" />
+        <Test Name="Taeniarhynehus saginatus" Code="2.03.08" Mnemonics="Taeniaт" Removed="false" />
+        <Test Name="Diphyllobothrium latum" Code="2.03.09" Mnemonics="Diphylт" Removed="false" />
+        <Test Name="Hymenolepis  diminuta" Code="2.03.10" Mnemonics="Hymenoт" Removed="false" />
+        <Test Name="Trichocephalus  trichiurus" Code="2.03.11" Mnemonics="Trichoт" Removed="false" />
+        <Test Name="Enterobius  vermicularis" Code="2.03.12" Mnemonics="Enteroт" Removed="false" />
+        <Test Name="Ascaris lumbricoides" Code="2.03.13" Mnemonics="Ascariт" Removed="false" />
+        <Test Name="Trichostrongylidae" Code="2.03.14" Mnemonics="Trichoт" Removed="false" />
+        <Test Name="Ancylostoma duodenale" Code="2.03.15" Mnemonics="Ancyloт" Removed="false" />
+        <Test Name="Necator americanus" Code="2.03.16" Mnemonics="Necatoт" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Ureaplasma urealyticum,ДНК(реал-тайм ПЦР)" Code="6.17" Mnemonics="UreaUrДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Ureaplasma urealyticum,ДНК(реал-тайм ПЦР)" Code="6.17.01" Mnemonics="Ureapla" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Сурьма в сыворотке" Code="4.56" Mnemonics="Сурьма" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Паразитарные инфекции. Lamblia intestinalis IgG/IgM (суммарные)" Code="5.52" Mnemonics="ЛямблСумм" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Lamblia intestinalis IgG/IgM (суммарные)" Code="5.52.01" Mnemonics="Lamblia" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Кадмий в сыворотке" Code="4.55" Mnemonics="Кадмий" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Микроскопическое исследование отделяемого мочеполовых органов женщин (микрофлора)" Code="2.07" Mnemonics="ОтдМПО_жен" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Мазок на предметном стекле" Code="5" Mnemonics="Мазок" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Лейкоциты" Code="2.07.01" Mnemonics="флора&quot;U&quot;" Removed="false" />
+        <Test Name="Эпителий цилиндрический" Code="2.07.02" Mnemonics="флора&quot;U&quot;" Removed="false" />
+        <Test Name="Микрофлора(палочки)" Code="2.07.03" Mnemonics="флора&quot;U&quot;" Removed="false" />
+        <Test Name="Микрофлора(кокки)" Code="2.07.04" Mnemonics="флора&quot;U&quot;" Removed="false" />
+        <Test Name="Диплококки" Code="2.07.05" Mnemonics="флора&quot;U&quot;" Removed="false" />
+        <Test Name="Ключевые клетки" Code="2.07.06" Mnemonics="флора&quot;U&quot;" Removed="false" />
+        <Test Name="Патогенные грибы" Code="2.07.08" Mnemonics="флора&quot;U&quot;" Removed="false" />
+        <Test Name="Trichomonas vaginalis" Code="2.07.07" Mnemonics="флора&quot;U&quot;" Removed="false" />
+        <Test Name="Слизь" Code="2.07.09" Mnemonics="флора&quot;U&quot;" Removed="false" />
+        <Test Name="Лейкоциты" Code="2.07.10" Mnemonics="флора &quot;С&quot;" Removed="false" />
+        <Test Name="Эпителий цилиндрический" Code="2.07.11" Mnemonics="флора &quot;С&quot;" Removed="false" />
+        <Test Name="Микрофлора(палочки)" Code="2.07.12" Mnemonics="флора &quot;С&quot;" Removed="false" />
+        <Test Name="Микрофлора(кокки)" Code="2.07.13" Mnemonics="флора &quot;С&quot;" Removed="false" />
+        <Test Name="Диплококки" Code="2.07.14" Mnemonics="флора &quot;С&quot;" Removed="false" />
+        <Test Name="Ключевые клетки" Code="2.07.15" Mnemonics="флора &quot;С&quot;" Removed="false" />
+        <Test Name="Trichomonas vaginalis" Code="2.07.16" Mnemonics="флора &quot;С&quot;" Removed="false" />
+        <Test Name="Патогенные грибы" Code="2.07.17" Mnemonics="флора &quot;С&quot;" Removed="false" />
+        <Test Name="Слизь" Code="2.07.18" Mnemonics="флора &quot;С&quot;" Removed="false" />
+        <Test Name="Лейкоциты" Code="2.07.19" Mnemonics="флора&quot;V&quot;" Removed="false" />
+        <Test Name="Эпителий плоский" Code="2.07.20" Mnemonics="флора&quot;V&quot;" Removed="false" />
+        <Test Name="Микрофлора(палочки)" Code="2.07.21" Mnemonics="флора&quot;V&quot;" Removed="false" />
+        <Test Name="Микрофлора(кокки)" Code="2.07.22" Mnemonics="флора&quot;V&quot;" Removed="false" />
+        <Test Name="Диплококки" Code="2.07.23" Mnemonics="флора&quot;V&quot;" Removed="false" />
+        <Test Name="Ключевые клетки" Code="2.07.24" Mnemonics="флора&quot;V&quot;" Removed="false" />
+        <Test Name="Trichomonas vaginalis" Code="2.07.25" Mnemonics="флора&quot;V&quot;" Removed="false" />
+        <Test Name="Патогенные грибы" Code="2.07.26" Mnemonics="флора&quot;V&quot;" Removed="false" />
+        <Test Name="Слизь" Code="2.07.27" Mnemonics="флора&quot;V&quot;" Removed="false" />
+        <Test Name="Лейкоциты" Code="2.07.28" Mnemonics="флора&quot;R&quot;" Removed="false" />
+        <Test Name="Эпителий плоский" Code="2.07.29" Mnemonics="флора&quot;R&quot;" Removed="false" />
+        <Test Name="Микрофлора(палочки)" Code="2.07.30" Mnemonics="флора&quot;R&quot;" Removed="false" />
+        <Test Name="Микрофлора(кокки)" Code="2.07.31" Mnemonics="флора&quot;R&quot;" Removed="false" />
+        <Test Name="Диплококки" Code="2.07.32" Mnemonics="флора&quot;R&quot;" Removed="false" />
+        <Test Name="Ключевые клетки" Code="2.07.33" Mnemonics="флора&quot;R&quot;" Removed="false" />
+        <Test Name="Trichomonas vaginalis" Code="2.07.34" Mnemonics="флора&quot;R&quot;" Removed="false" />
+        <Test Name="Патогенные грибы" Code="2.07.35" Mnemonics="флора&quot;R&quot;" Removed="false" />
+        <Test Name="Слизь" Code="2.07.36" Mnemonics="флора&quot;R&quot;" Removed="false" />
+        <Test Name="Патогенные грибы" Code="2.07.08.1" Mnemonics="флора&quot;U&quot;" Removed="false" />
+        <Test Name="Патогенные грибы" Code="2.07.17.1" Mnemonics="флора &quot;С&quot;" Removed="false" />
+        <Test Name="Патогенные грибы" Code="2.07.26.1" Mnemonics="флора&quot;V&quot;" Removed="false" />
+        <Test Name="Эпителий цилиндрический" Code="2.07.11.1" Mnemonics="флора &quot;С&quot;" Removed="false" />
+        <Test Name="Микрофлора(кокки)" Code="2.07.13.1" Mnemonics="флора &quot;С&quot;" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Паразитарные инфекции. Lamblia intestinalis IgG- лямблии" Code="5.53" Mnemonics="G-лямблии" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Lamblia intestinalis IgG/IgM (суммарные)" Code="5.53.01" Mnemonics="Lamblia" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение липопротеинов высокой плотности (ЛПВП)" Code="4.08" Mnemonics="ЛПВП" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Липопротеины высокой плотности" Code="4.08.01" Mnemonics="ЛВП" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение Липопротеинов  низкой плотности (ЛПНП)" Code="4.09" Mnemonics="ЛПНП" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Липопротеины низкой плотности" Code="4.09.01" Mnemonics="ЛНП" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Паразитарные инфекциии. Lamblia intestinalis IgM-лямблии" Code="5.54" Mnemonics="LambIntIgM" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Lamblia intestinalis IgM-лямблии" Code="5.54.01" Mnemonics="Lamblia" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молибден в сыворотке" Code="4.54" Mnemonics="Молибден" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Определение общего холестерина в сыворотке" Code="4.06" Mnemonics="Холест" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Общий холестерин" Code="4.06.01" Mnemonics="ХолестОб" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Микроскопическое исследование отделяемого мочеполовых органов мужчин (микрофлора)" Code="2.05" Mnemonics="ОтдМПО_муж" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Мазок на предметном стекле" Code="5" Mnemonics="Мазок" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Лейкоциты" Code="2.05.01" Mnemonics="Лейкоц" Removed="false" />
+        <Test Name="Клетки эпителия" Code="2.05.02" Mnemonics="клеткитп/зр" Removed="false" />
+        <Test Name="Клетки эпителия" Code="2.05.02.1" Mnemonics="клеткитп/зр" Removed="false" />
+        <Test Name="Слизь" Code="2.05.03" Mnemonics="Слизь" Removed="false" />
+        <Test Name="Грамм(+)кокки" Code="2.05.04" Mnemonics="Грамм(тп/зр" Removed="false" />
+        <Test Name="Грамм(-)кокки" Code="2.05.05" Mnemonics="Грамм(тп/зр" Removed="false" />
+        <Test Name="Грамм(+)палочки" Code="2.05.06" Mnemonics="Грамм(тп/зр" Removed="false" />
+        <Test Name="Грамм(-)палочки" Code="2.05.07" Mnemonics="Грамм(тп/зр" Removed="false" />
+        <Test Name="Грамм(+)диплококки" Code="2.05.08" Mnemonics="Грамм(тп/зр" Removed="false" />
+        <Test Name="Грамм(-)диплококки" Code="2.05.09" Mnemonics="Грамм(тп/зр" Removed="false" />
+        <Test Name="Споры и псевдомицелий Candida" Code="2.05.10" Mnemonics="Споры тп/зр" Removed="false" />
+        <Test Name="Диплококки внутриклеточно" Code="2.05.11" Mnemonics="Диплоктп/зр" Removed="false" />
+        <Test Name="Trichomonas vaginalis" Code="2.05.12" Mnemonics="Trichomп/зр" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Паразитарные инфекции. Toxocara,IgG" Code="5.49" Mnemonics="ToxoIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Toxocara,IgG" Code="5.49.01" Mnemonics="Toxocar" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Human Papillomavirus высокого канцерогенного риска(16,18,31,33,35,39,45,51,52,56.58,59.66,68 типы), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16" Mnemonics="Human P" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Human Papillomavirus высокого канцерогенного риска(16 тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.01" Mnemonics="Human P16" Removed="false" />
+        <Test Name="Human Papillomavirus высокого канцерогенного риска(18 тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.02" Mnemonics="Human P18" Removed="false" />
+        <Test Name="Human Papillomavirus высокого канцерогенного риска(33 тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.04" Mnemonics="Human P33" Removed="false" />
+        <Test Name="Human Papillomavirus высокого канцерогенного риска(35 тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.05" Mnemonics="Human P35" Removed="false" />
+        <Test Name="Human Papillomavirus высокого канцерогенного риска(39 тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.06" Mnemonics="Human P39" Removed="false" />
+        <Test Name="Human Papillomavirus высокого канцерогенного риска(45тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.07" Mnemonics="Human P45" Removed="false" />
+        <Test Name="Human Papillomavirus высокого канцерогенного риска(51тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.08" Mnemonics="Human P51" Removed="false" />
+        <Test Name="Human Papillomavirus высокого канцерогенного риска(52тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.09" Mnemonics="Human P52" Removed="false" />
+        <Test Name="Human Papillomavirus высокого канцерогенного риска(56 тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.10" Mnemonics="Human P56" Removed="false" />
+        <Test Name="Human Papillomavirus высокого канцерогенного риска(58тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.11" Mnemonics="Human P58" Removed="false" />
+        <Test Name="Human Papillomavirus высокого канцерогенного риска(59тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.12" Mnemonics="Human P59" Removed="false" />
+        <Test Name="Human Papillomavirus высокого канцерогенного риска(66тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.13" Mnemonics="Human P66" Removed="false" />
+        <Test Name="Human Papillomavirus высокого канцерогенного риска(68 тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.14" Mnemonics="Human P68" Removed="false" />
+        <Test Name="Human Papillomavirus высокого канцерогенного риска(31 тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.03" Mnemonics="Human P31" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Паразитарные инфекции. Trichinella,IgG" Code="5.50" Mnemonics="TrichIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Trichinella,IgG" Code="5.50.01" Mnemonics="Trichin" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Комлексная диагностика дисбиозов урогенитального тракта(реал-тайм ПЦР)Биофлор." Code="6.15" Mnemonics="Биофлор" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Лактобактерии" Code="6.15.01" Mnemonics="ЛактобтКОЕ/мл" Removed="false" />
+        <Test Name="Бактериальный вагиноз" Code="6.15.02" Mnemonics="БакВагиноз" Removed="false" />
+        <Test Name="Кандида" Code="6.15.03" Mnemonics="Кандида" Removed="false" />
+        <Test Name="Хламидии" Code="6.15.04" Mnemonics="Хламидии" Removed="false" />
+        <Test Name="Гонококк" Code="6.15.05" Mnemonics="Гонококк" Removed="false" />
+        <Test Name="Трихомонада" Code="6.15.06" Mnemonics="Трихомонада" Removed="false" />
+        <Test Name="ТрихомонадаМикоплазма гениталиум" Code="6.15.07" Mnemonics="МикоплГенит" Removed="false" />
+        <Test Name="Микоплазма хоминис" Code="6.15.08" Mnemonics="МикоплХом" Removed="false" />
+        <Test Name="Уреаплазма уреалитикум" Code="6.15.09" Mnemonics="УреаУреа" Removed="false" />
+        <Test Name="Уреаплазма парвум" Code="6.15.10" Mnemonics="УреаПарв" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Проба Реберга (клиренс эндогенного креатинина)" Code="4.42" Mnemonics="Реберг" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Микроскопическое исследование сока предстательной железы" Code="2.06" Mnemonics="МикрСП" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Мазок на предметном стекле" Code="5" Mnemonics="Мазок" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Цвет" Code="2.06.01" Mnemonics="Цвет" Removed="false" />
+        <Test Name="Запах" Code="2.06.02" Mnemonics="Запах" Removed="false" />
+        <Test Name="Слизь" Code="2.06.03" Mnemonics="Слизь" Removed="false" />
+        <Test Name="Эритроциты" Code="2.06.04" Mnemonics="эритротп/зр" Removed="false" />
+        <Test Name="Эпителиальные клетки" Code="2.06.05" Mnemonics="Эпителтп/зр" Removed="false" />
+        <Test Name="Амилоидные тельца" Code="2.06.06" Mnemonics="амилоитп/зр" Removed="false" />
+        <Test Name="Макрофаги" Code="2.06.07" Mnemonics="макрофтп/зр" Removed="false" />
+        <Test Name="Лецитиновые зерна" Code="2.06.08" Mnemonics="лецититп/зр" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение триглицеридов в сыворотке" Code="4.07" Mnemonics="Триглиц" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Триглицериды" Code="4.07.01" Mnemonics="триглиц" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Паразитарные инфекции. Ascaris Lumbricoides,IgG" Code="5.51" Mnemonics="AscarIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Ascaris Lumbricoides,IgG" Code="5.51.01" Mnemonics="Ascaris" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Развернутая диагностика ЗППП для мужчин (Андрофлор),ДНК количественно(реал-тайм ПЦР)" Code="6.19" Mnemonics="Андрофлор" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+        <Biomaterial Name="Эякулят" Code="12" Mnemonics="ЭЯ" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Лактобактерии" Code="6.19.01" Mnemonics="Лактобактерии" Removed="false" />
+        <Test Name="Стафилококки" Code="6.19.02" Mnemonics="Стафилококки" Removed="false" />
+        <Test Name="Стрептококки" Code="6.19.03" Mnemonics="Стрептококки" Removed="false" />
+        <Test Name="Коренебактерии" Code="6.19.04" Mnemonics="Коренебактерии" Removed="false" />
+        <Test Name="Фузобактерии" Code="6.19.05" Mnemonics="Фузобактерии" Removed="false" />
+        <Test Name="Гарднереллы" Code="6.19.06" Mnemonics="Гарднереллы" Removed="false" />
+        <Test Name="Бактероиды" Code="6.19.07" Mnemonics="Бактероиды" Removed="false" />
+        <Test Name="Энтерококки" Code="6.19.08" Mnemonics="Энтерококки" Removed="false" />
+        <Test Name="Псевдомонады" Code="6.19.09" Mnemonics="Псевдомонады" Removed="false" />
+        <Test Name="Энтеробактерии" Code="6.19.10" Mnemonics="Энтеробактерии" Removed="false" />
+        <Test Name="Микоплазма" Code="6.19.11" Mnemonics="Микоплазма" Removed="false" />
+        <Test Name="Хламидии" Code="6.19.12" Mnemonics="Хламидии" Removed="false" />
+        <Test Name="Трихомонады" Code="6.19.13" Mnemonics="Трихомонады" Removed="false" />
+        <Test Name="Гонококки" Code="6.19.14" Mnemonics="Гонококки" Removed="false" />
+        <Test Name="Канидида" Code="6.19.15" Mnemonics="Канидида" Removed="false" />
+        <Test Name="Уреаплазма" Code="6.19.16" Mnemonics="Уреаплазма" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Паразитарные инфекции. Toxoplasma gondii IgG/IgM (суммарные)" Code="5.57" Mnemonics="gondiiСумм" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Toxoplasma gondii IgG/IgM (суммарные)" Code="5.57.01" Mnemonics="Toxopla" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Жирорастворимые витамины(А,D,E,K)" Code="4.59" Mnemonics="ВитА,D,E,K" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Определение креатинкиназы" Code="4.13" Mnemonics="КФК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Креатинкиназа" Code="4.13.01" Mnemonics="КФК" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование гормонов щитовидной железы. Тиреотропный гормон (ТТГ)" Code="5.02" Mnemonics="ТТГ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Тиреотропный гормон" Code="5.02.01" Mnemonics="ТТГ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Паразитарные инфекции. Эхинококк-IgG" Code="5.58" Mnemonics="ЭхинокIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Эхинококк-IgG" Code="5.58.01" Mnemonics="Эхиноко" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Chlamydia trachomatis ДНК (реал-тайм ПЦР)" Code="6.20" Mnemonics="ChlTrachДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Chlamydia trachomatis ДНК (реал-тайм ПЦР)" Code="6.20.01" Mnemonics="Chlamyd" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование гормонов щитовидной железы. Тироксин свободный (Т4 свободный)" Code="5.03" Mnemonics="Т4Свободн" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Тироксин свободный" Code="5.03.01" Mnemonics="Т4(свободный)" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Adenovirus ДНК(реал-тайм ПЦР)" Code="6.01" Mnemonics="AdenVirДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Adenovirus ДНК(реал-тайм ПЦР)" Code="6.01.01" Mnemonics="Adenovт" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Trichomonas vahinalis ДНК(реал-тайм ПЦР)" Code="6.21" Mnemonics="TrichVagДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Trichomonas vahinalis ДНК(реал-тайм ПЦР)" Code="6.21.01" Mnemonics="Trichom" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Ртуть в сыворотке" Code="4.57" Mnemonics="Ртуть" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Свинец в сыворотке" Code="4.58" Mnemonics="Свинец" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь венозная" Code="9" Mnemonics="Кровь" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Паразитарные инфекции. Toxoplasma gondii IgG" Code="5.55" Mnemonics="gondiiIgG" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Toxoplasma gondii IgG" Code="5.55.01" Mnemonics="Toxopla" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Общий анализ мокроты" Code="2.08" Mnemonics="ОАМокрота" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Мокрота" Code="6" Mnemonics="Мокрота" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Цвет" Code="2.08.01" Mnemonics="Цвет" Removed="false" />
+        <Test Name="Характер" Code="2.08.02" Mnemonics="Характер" Removed="false" />
+        <Test Name="Консистенция" Code="2.08.03" Mnemonics="Консист" Removed="false" />
+        <Test Name="Запах" Code="2.08.04" Mnemonics="Запах" Removed="false" />
+        <Test Name="Лейкоциты" Code="2.08.05" Mnemonics="лейкоцтп/зр" Removed="false" />
+        <Test Name="Альвеолярные макрофаги" Code="2.08.07" Mnemonics="альвеотп/зр" Removed="false" />
+        <Test Name="Эритроциты" Code="2.08.06" Mnemonics="эритротп/зр" Removed="false" />
+        <Test Name="Эпителий плоский" Code="2.08.08" Mnemonics="эпителтп/зр" Removed="false" />
+        <Test Name="Кристаллы Шарко-Лейдена" Code="2.08.09" Mnemonics="Кристал" Removed="false" />
+        <Test Name="Спирали Куршмана" Code="2.08.10" Mnemonics="Спирали" Removed="false" />
+        <Test Name="Эластичные волокна" Code="2.08.11" Mnemonics="эластич" Removed="false" />
+        <Test Name="Атипичные клетки" Code="2.08.12" Mnemonics="Атипичн" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Staphylococcus aureus/mekA/LukS-PV LYR ДНК (РТ-ПЦР)" Code="6.18" Mnemonics="StAureusДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Staphylococcus aureus/mekA/LukS-PV LYR ДНК (РТ-ПЦР)" Code="6.18.01" Mnemonics="Staphyl" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Паразитарные инфекции. Toxoplasma gondii IgM" Code="5.56" Mnemonics="gondiiIgM" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Toxoplasma gondii IgM" Code="5.56.01" Mnemonics="Toxopla" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение аспартатаминотрасферазы (АСТ)" Code="4.11" Mnemonics="АСТ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Аспартатаминотрасфераза" Code="4.11.01" Mnemonics="АСТ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение мочевой кислоты в сыворотке" Code="4.12" Mnemonics="МочКисл" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Мочевая кислота" Code="4.12.01" Mnemonics="МочевКисл" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение ферритина" Code="5.01" Mnemonics="Ферритин" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Ферритин" Code="5.01.01" Mnemonics="ферритин" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Аллерген f27-говядина IgE(ImmunoCAP)" Code="5.87" Mnemonics="ImmCAPf27" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Influenza virus A/B(вирусы гриппа А/В)(реал-тайм ПЦР)" Code="6.03" Mnemonics="ГриппДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Influenza virus A/B(вирусы гриппа А/В)(реал-тайм ПЦР)" Code="6.03.01" Mnemonics="Influeт" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение амилазы панкреатической" Code="4.16" Mnemonics="ПанкрАмил" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Амилаза панкреатическая" Code="4.16.01" Mnemonics="АмилПанкр" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование гормонов щитовидной железы. Трийодтиронин свободный (Т3 свободный)" Code="5.05" Mnemonics="Т3Своб" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Трийодтиронин свободный" Code="5.05.01" Mnemonics="Т3 (свободный)" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Диагностика бактериального вагиноза( ДНК количественно)(реал-тайм ПЦР)" Code="6.04" Mnemonics="БакВагиноз" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб цервикальный" Code="7" Mnemonics="СоскЦерв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Диагностика бактериального вагиноза( ДНК количественно)(реал-тайм ПЦР)" Code="6.04.01" Mnemonics="Вагиноз" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование гомонов щитовидной железы. Трийодтиронин общий (Т3 общий)" Code="5.06" Mnemonics="Т3Общ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Трийодтиронин общий" Code="5.06.01" Mnemonics="Т3 (общий)" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Mycoplasma pneumoniae,ДНК(реал-тайм ПЦР)" Code="6.05" Mnemonics="MycPnДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+        <Biomaterial Name="Соскоб урогенитальный,кровь" Code="8" Mnemonics="СоскУГ_Кр" Removed="false" />
+        <Biomaterial Name="Кровь венозная" Code="9" Mnemonics="Кровь" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Mycoplasma pneumoniae,ДНК(реал-тайм ПЦР)" Code="6.05.01" Mnemonics="Mycoplт" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение лактатдегидрогеназы (ЛДГ)" Code="4.17" Mnemonics="ЛДГ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Лактатдегидрогеназа" Code="4.17.01" Mnemonics="ЛДГ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Mycoplasma hominis,ДНК(реал-тайм ПЦР)" Code="6.06" Mnemonics="MycHomДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+        <Biomaterial Name="Соскоб урогенитальный,кровь" Code="8" Mnemonics="СоскУГ_Кр" Removed="false" />
+        <Biomaterial Name="Кровь венозная" Code="9" Mnemonics="Кровь" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Mycoplasma hominis,ДНК(реал-тайм ПЦР)" Code="6.06.01" Mnemonics="Mycoplт" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Водорастворимые витамины(В1,В5,В6,С)" Code="4.60" Mnemonics="ВитВ1,В5,В6,С" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Смесь пищевых аллергенов №7( IgE) яичный белок,рис,коровье молоко,арахис,пшеничная мука,соевые бобы" Code="5.86" Mnemonics="АллерПищ7" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Комплексный анализ крови на витамины группы  D (D2 ,D3)" Code="4.61" Mnemonics="ВитD (D2 ,D3)" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Rotavirus A ДНК(реал-тайм ПЦР)" Code="6.02" Mnemonics="RotaVirДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Rotavirus A ДНК(реал-тайм ПЦР)" Code="6.02.01" Mnemonics="Rotaviт" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение гамма-глютамилтраспептидазы (ГГТ)" Code="4.14" Mnemonics="ГГТ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Гамма-глютамилтрансфераза" Code="4.14.01" Mnemonics="ГГТ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение амилазы в сыворотке" Code="4.15" Mnemonics="Амилаза" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Амилаза" Code="4.15.01" Mnemonics="Амилаза" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование гормонов щитовидной железы. Тироксин общий (Т4 общий)" Code="5.04" Mnemonics="Т4Общ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Тироксин общий" Code="5.04.01" Mnemonics="Т4 (общий)" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение креатинкиназы МВ" Code="4.19" Mnemonics="КФК-МВ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Креатинкиназа МВ" Code="4.19.01" Mnemonics="КФК-МВ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. РНК короновируса SARS-CoV-2 (реал-тайм ПЦР)" Code="6.09" Mnemonics="SARSCoV2ДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+        <Biomaterial Name="Соскоб" Code="11" Mnemonics="Соскоб" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="РНК короновируса SARS-CoV-2 (реал-тайм ПЦР)" Code="6.09.01" Mnemonics="РНК кот" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование гормонов щитовидной железы. Антитела к тиреоглобулину (Анти-ТГ)" Code="5.08" Mnemonics="Анти-ТГ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Антитела к тиреоглобулину" Code="5.08.01" Mnemonics="Анти-ТГ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование гормонов щитиовидной железы. Антитела к тиреоидной пероксидазе (Анти-ТПО)" Code="5.09" Mnemonics="Анти-ТПО" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Антитела к тиреоидной пероксидазе" Code="5.09.01" Mnemonics="Анти-ТПО" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. HCV,РНК количественно(реал-тайм ПЦР)" Code="6.10" Mnemonics="HCV_ДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Кровь венозная" Code="9" Mnemonics="Кровь" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="HCV,РНК количественно(реал-тайм ПЦР)" Code="6.10.01" Mnemonics="HCV,РНт" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Аллерген f 79-глютен(клейковина),IgE (ImmunoCAP)" Code="5.90" Mnemonics="ImmCAPf79" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Treponema pallidum,ДНК (реал-тайм ПЦР)" Code="6.11" Mnemonics="TreponДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Treponema pallidum,ДНК (реал-тайм ПЦР)" Code="6.11.01" Mnemonics="Treponт" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение мочевины в сыворотке" Code="4.20" Mnemonics="Мочевина" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Мочевина" Code="4.20.01" Mnemonics="Мочевина" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Определение антистрептолизина О" Code="4.21" Mnemonics="ASLO" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Исследование гормонов щитовидной железы. Кальцитонин" Code="5.10" Mnemonics="Кальцитонин" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Кальцитонин" Code="5.10.01" Mnemonics="Кальцитпг/мл" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Аллерген d2-клещ домашней пыли Dermatophagoides farinae, IgE(ImmunoCAP)" Code="5.88" Mnemonics="ImmCAPd2" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Herpes Simplex Virus2,ДНК(реал-тайм ПЦР)" Code="6.08" Mnemonics="Герпес2ДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+        <Biomaterial Name="Соскоб урогенитальный,кровь" Code="8" Mnemonics="СоскУГ_Кр" Removed="false" />
+        <Biomaterial Name="Кровь венозная" Code="9" Mnemonics="Кровь" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Herpes Simplex Virus2,ДНК(реал-тайм ПЦР)" Code="6.08.01" Mnemonics="Herpesт" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Аллерген h1 -домашняя пыль (Greer) IgE (ImmunoCAP)" Code="5.89" Mnemonics="ImmCAPh1" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests />
+    </Target>
+    <Target Name="Определение щелочной фосфатазы" Code="4.18" Mnemonics="ЩФ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Щелочная  фосфатаза" Code="4.18.01" Mnemonics="ЩФ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Исследование гормонов щитовидной железы. Тиреоглобулин(ТГ)" Code="5.07" Mnemonics="ТГ" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Тиреоглобулин" Code="5.07.01" Mnemonics="ТГ" Removed="false" />
+      </Tests>
+    </Target>
+    <Target Name="Молекулярно-генетические исследования. Herpes Simplex Virus 1,ДНК(реал-тайм ПЦР)" Code="6.07" Mnemonics="Герпес1ДНК" Removed="false" RequiresAdditionalTube="false">
+      <Biomaterials>
+        <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+        <Biomaterial Name="Соскоб урогенитальный,кровь" Code="8" Mnemonics="СоскУГ_Кр" Removed="false" />
+        <Biomaterial Name="Кровь венозная" Code="9" Mnemonics="Кровь" Removed="false" />
+      </Biomaterials>
+      <Tests>
+        <Test Name="Herpes Simplex Virus 1,ДНК(реал-тайм ПЦР)" Code="6.07.01" Mnemonics="Herpesт" Removed="false" />
+      </Tests>
+    </Target>
+  </Targets>
+</TargetsDictionary>

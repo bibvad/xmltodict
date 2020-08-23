@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HospitalsDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Hospitals>
+    <Hospital Name="Тирвас" Code="1" Mnemonics="" Removed="false" />
+  </Hospitals>
+</HospitalsDictionary>

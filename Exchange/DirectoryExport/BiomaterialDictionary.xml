@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BiomaterialsDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Biomaterials>
+    <Biomaterial Name="Соскоб из носа и/или ротоглотки" Code="18" Mnemonics="СоскНосРГ" Removed="false" />
+    <Biomaterial Name="Эякулят" Code="12" Mnemonics="ЭЯ" Removed="false" />
+    <Biomaterial Name="Мазок с ш/м и цервик.канала" Code="15" Mnemonics="ЦКМаз" Removed="false" />
+    <Biomaterial Name="Кровь с ЭДТА" Code="2" Mnemonics="КровьЭТДА" Removed="false" />
+    <Biomaterial Name="Моча" Code="3" Mnemonics="Моча" Removed="false" />
+    <Biomaterial Name="Кровь с цитрат Na-3,8%" Code="19" Mnemonics="КровтЦитрNа" Removed="false" />
+    <Biomaterial Name="Сыворотка" Code="1" Mnemonics="Сыв" Removed="false" />
+    <Biomaterial Name="Соскоб с перианальных складок" Code="14" Mnemonics="СоскПериан" Removed="false" />
+    <Biomaterial Name="Соскоб урогенитальный,кровь" Code="8" Mnemonics="СоскУГ_Кр" Removed="false" />
+    <Biomaterial Name="Мазок из зева" Code="17" Mnemonics="ЗевМаз" Removed="false" />
+    <Biomaterial Name="Соскоб цервикальный" Code="7" Mnemonics="СоскЦерв" Removed="false" />
+    <Biomaterial Name="Мокрота" Code="6" Mnemonics="Мокрота" Removed="false" />
+    <Biomaterial Name="Соскоб урогенитальный" Code="10" Mnemonics="СоскУГ" Removed="false" />
+    <Biomaterial Name="Мазок на предметном стекле" Code="5" Mnemonics="Мазок" Removed="false" />
+    <Biomaterial Name="Кровь венозная" Code="9" Mnemonics="Кровь" Removed="false" />
+    <Biomaterial Name="Кал" Code="4" Mnemonics="Кал" Removed="false" />
+    <Biomaterial Name="Соскоб" Code="11" Mnemonics="Соскоб" Removed="false" />
+    <Biomaterial Name="Мазок из носа" Code="13" Mnemonics="НомМаз" Removed="false" />
+    <Biomaterial Name="Соскоб из носа и/или зева" Code="16" Mnemonics="СоскНосЗев" Removed="false" />
+  </Biomaterials>
+</BiomaterialsDictionary>

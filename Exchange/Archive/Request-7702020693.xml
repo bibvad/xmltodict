@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Request xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RequestCode>7702020696</RequestCode>
+  <HospitalCode>1</HospitalCode>
+  <DepartmentCode>001</DepartmentCode>
+  <DepartmentName>TEST</DepartmentName>
+  <DoctorCode>10131</DoctorCode>
+  <DoctorName>Колосова Ирина Ивановна</DoctorName>
+  <SamplingDate>2019-03-09T00:00:00</SamplingDate>
+  <Patient>
+    <Code>77-2721/2019</Code>
+    <PatientCard>
+      <CardNr>77-2722/2019</CardNr>
+    </PatientCard>
+    <FirstName>Александра</FirstName>
+    <LastName>Грошева</LastName>
+    <MiddleName>Олеговна</MiddleName>
+    <BirthDay>3</BirthDay>
+    <BirthMonth>5</BirthMonth>
+    <BirthYear>1990</BirthYear>
+    <Sex>1</Sex>
+  </Patient>
+  <Samples>
+    <Sample>
+      <BiomaterialCode>1</BiomaterialCode>
+      <Barcode>770903190034</Barcode>
+      <Priority>0</Priority>
+      <Targets>
+        <Target>
+          <Code>4.10</Code>
+        </Target>
+        
+      </Targets>
+    </Sample>
+  </Samples>
+  <UserFields>
+  </UserFields>
+</Request>

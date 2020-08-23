@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MicroorganismsDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Microorganisms>
+    <Microorganism Name="кровь с ЭДТА (сиреневая проб)" Code="1" Mnemonics="" Removed="false" />
+  </Microorganisms>
+</MicroorganismsDictionary>

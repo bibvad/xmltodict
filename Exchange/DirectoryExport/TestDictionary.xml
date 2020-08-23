@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestsDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Tests>
+    <Test Name="Тромбокрит(PCT)" Code="1.01.12" Mnemonics="PCT" Removed="false" />
+    <Test Name="Тромбоциты(PLT)" Code="1.01.10" Mnemonics="PLT" Removed="false" />
+    <Test Name="Лейкоциты" Code="2.01.14" Mnemonics="ЛейкМоч#" Removed="false" />
+    <Test Name="Плоский эпителий" Code="2.01.16" Mnemonics="ПлоскЭп" Removed="false" />
+    <Test Name="Средний обьем тромбоцитов(MPV)" Code="1.01.11" Mnemonics="MPV" Removed="false" />
+    <Test Name="Adenovirus ДНК(реал-тайм ПЦР)" Code="6.01.01" Mnemonics="Adenovт" Removed="false" />
+    <Test Name="Уреаплазма" Code="6.14.06" Mnemonics="Уреапла" Removed="false" />
+    <Test Name="Human Papillomavirus высокого канцерогенного риска(68 тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.14" Mnemonics="Human P68" Removed="false" />
+    <Test Name="Влагалищная трихомонада" Code="6.14.05" Mnemonics="Трихом" Removed="false" />
+    <Test Name="Human Papillomavirus высокого канцерогенного риска(66тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.13" Mnemonics="Human P66" Removed="false" />
+    <Test Name="Микрофлора(кокки)" Code="2.07.31" Mnemonics="флора&quot;R&quot;" Removed="false" />
+    <Test Name="Антитела суммарные к возбудителю туберкулеза (IgA, IgG, IgM)" Code="5.38.01" Mnemonics="Антител" Removed="false" />
+    <Test Name="Диагностика бактериального вагиноза( ДНК количественно)(реал-тайм ПЦР)" Code="6.04.01" Mnemonics="Вагиноз" Removed="false" />
+    <Test Name="Диплококки" Code="2.07.32" Mnemonics="флора&quot;R&quot;" Removed="false" />
+    <Test Name="Тиреоглобулин" Code="5.07.01" Mnemonics="ТГ" Removed="false" />
+    <Test Name="Эпителий плоский" Code="2.07.29" Mnemonics="флора&quot;R&quot;" Removed="false" />
+    <Test Name="Influenza virus A/B(вирусы гриппа А/В)(реал-тайм ПЦР)" Code="6.03.01" Mnemonics="Influeт" Removed="false" />
+    <Test Name="Микрофлора(палочки)" Code="2.07.30" Mnemonics="флора&quot;R&quot;" Removed="false" />
+    <Test Name="Слизь" Code="2.07.27" Mnemonics="флора&quot;V&quot;" Removed="false" />
+    <Test Name="Хантавирус-IgM(геморрагическая лихорадка с печеночным синдромом)" Code="5.37.01" Mnemonics="Хантави" Removed="false" />
+    <Test Name="Лейкоциты" Code="2.07.28" Mnemonics="флора&quot;R&quot;" Removed="false" />
+    <Test Name="Трийодтиронин общий" Code="5.06.01" Mnemonics="Т3 (общий)" Removed="false" />
+    <Test Name="Rotavirus A ДНК(реал-тайм ПЦР)" Code="6.02.01" Mnemonics="Rotaviт" Removed="false" />
+    <Test Name="Human Papillomavirus высокого канцерогенного риска(31 тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.03" Mnemonics="Human P31" Removed="false" />
+    <Test Name="Лейкоциты" Code="2.02.01" Mnemonics="ЛейкНечип" Removed="false" />
+    <Test Name="Альбумин" Code="4.34.01" Mnemonics="Альбумин" Removed="false" />
+    <Test Name="Переходный эпителий" Code="2.01.17" Mnemonics="ПерехЭп" Removed="false" />
+    <Test Name="Эритроциты" Code="2.02.02" Mnemonics="ЭритНечип" Removed="false" />
+    <Test Name="Почечный эпителий" Code="2.01.18" Mnemonics="ПочечЭп" Removed="false" />
+    <Test Name="Антитела к тиреоглобулину" Code="5.08.01" Mnemonics="Анти-ТГ" Removed="false" />
+    <Test Name="Ключевые клетки" Code="2.07.33" Mnemonics="флора&quot;R&quot;" Removed="false" />
+    <Test Name="Mycoplasma pneumoniae,ДНК(реал-тайм ПЦР)" Code="6.05.01" Mnemonics="Mycoplт" Removed="false" />
+    <Test Name="Скопления лейкоцитов" Code="2.01.15" Mnemonics="СкопЛейк" Removed="false" />
+    <Test Name="Trichomonas vaginalis" Code="2.07.34" Mnemonics="флора&quot;R&quot;" Removed="false" />
+    <Test Name="Лимфоциты(LYMP)abs" Code="1.01.15" Mnemonics="(LYMP)abs" Removed="false" />
+    <Test Name="резус-фактор" Code="1.13.1" Mnemonics="резус-т" Removed="false" />
+    <Test Name="Эозинофилы(EO)abs" Code="1.01.17" Mnemonics="(EO)abs" Removed="false" />
+    <Test Name="Группы крови" Code="1.12.1" Mnemonics="групКров" Removed="false" />
+    <Test Name="Нейтрофилы (NEUT)abs" Code="1.01.14" Mnemonics="(NEUT)abs" Removed="false" />
+    <Test Name="Human Papillomavirus высокого канцерогенного риска(59тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.12" Mnemonics="Human P59" Removed="false" />
+    <Test Name="подсчет количества ретикулоцитов" Code="1.02.01" Mnemonics="подсчет%" Removed="false" />
+    <Test Name="Индекс рапределения тромбоцитов(PDV)" Code="1.01.13" Mnemonics="PDV" Removed="false" />
+    <Test Name="Цитомегаловирус" Code="6.14.03" Mnemonics="Цитомег" Removed="false" />
+    <Test Name="подсчет количества эритроцитов с базафильной зернистостью" Code="1.02.02" Mnemonics="подсчет" Removed="false" />
+    <Test Name="Human Papillomavirus высокого канцерогенного риска(58тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.11" Mnemonics="Human P58" Removed="false" />
+    <Test Name="Микрофлора(кокки)" Code="2.07.22" Mnemonics="флора&quot;V&quot;" Removed="false" />
+    <Test Name="Диплококки" Code="2.07.23" Mnemonics="флора&quot;V&quot;" Removed="false" />
+    <Test Name="Эпителий плоский" Code="2.07.20" Mnemonics="флора&quot;V&quot;" Removed="false" />
+    <Test Name="Тироксин общий" Code="5.04.01" Mnemonics="Т4 (общий)" Removed="false" />
+    <Test Name="Микрофлора(палочки)" Code="2.07.21" Mnemonics="флора&quot;V&quot;" Removed="false" />
+    <Test Name="Антитела к вирусу бруцеллеза, IgM (Brucella, IgM)" Code="5.35.01" Mnemonics="Антител" Removed="false" />
+    <Test Name="Лейкоциты" Code="2.07.19" Mnemonics="флора&quot;V&quot;" Removed="false" />
+    <Test Name="Гонококк" Code="6.14.04" Mnemonics="Гонокок" Removed="false" />
+    <Test Name="Антитела к вирусу бруцеллеза, IgG (Brucella, IgG)" Code="5.34.01" Mnemonics="Антител" Removed="false" />
+    <Test Name="Скопления эритроцитов" Code="2.01.13" Mnemonics="СкопЭрит" Removed="false" />
+    <Test Name="Патогенные грибы" Code="2.07.26" Mnemonics="флора&quot;V&quot;" Removed="false" />
+    <Test Name="Трийодтиронин свободный" Code="5.05.01" Mnemonics="Т3 (свободный)" Removed="false" />
+    <Test Name="Эритроциты" Code="2.01.12" Mnemonics="ЭритМоч" Removed="false" />
+    <Test Name="Ключевые клетки" Code="2.07.24" Mnemonics="флора&quot;V&quot;" Removed="false" />
+    <Test Name="Trichomonas vaginalis" Code="2.07.25" Mnemonics="флора&quot;V&quot;" Removed="false" />
+    <Test Name="Хантавирус-IgG(геморрагическая лихорадка с печеночным синдромом)" Code="5.36.01" Mnemonics="Хантави" Removed="false" />
+    <Test Name="Средний обьем эритроцита(MCV)" Code="1.01.05" Mnemonics="MCV" Removed="false" />
+    <Test Name="Лактобактерии" Code="6.14.01.1" Mnemonics="Лактобт%" Removed="false" />
+    <Test Name="Human Papillomavirus высокого канцерогенного риска(52тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.09" Mnemonics="Human P52" Removed="false" />
+    <Test Name="Chlamydia trachomatis ДНК (реал-тайм ПЦР)" Code="6.20.01" Mnemonics="Chlamyd" Removed="false" />
+    <Test Name="Лактобактерии" Code="6.14.01" Mnemonics="Лактобт%" Removed="false" />
+    <Test Name="Human Papillomavirus высокого канцерогенного риска(51тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.08" Mnemonics="Human P51" Removed="false" />
+    <Test Name="Уреаплазма" Code="6.19.16" Mnemonics="Уреаплазма" Removed="false" />
+    <Test Name="Микрофлора(кокки)" Code="2.07.13" Mnemonics="флора &quot;С&quot;" Removed="false" />
+    <Test Name="Определение антигена гепатита В" Code="5.68.01" Mnemonics="HBs-Ag" Removed="false" />
+    <Test Name="Диплококки" Code="2.07.14" Mnemonics="флора &quot;С&quot;" Removed="false" />
+    <Test Name="Антитела к вирусу клещевого энцефалита, IgМ" Code="5.33.01" Mnemonics="Антител" Removed="false" />
+    <Test Name="Эпителий цилиндрический" Code="2.07.11" Mnemonics="флора &quot;С&quot;" Removed="false" />
+    <Test Name="Микрофлора(палочки)" Code="2.07.12" Mnemonics="флора &quot;С&quot;" Removed="false" />
+    <Test Name="Бактерии кислотоустойчивые" Code="2.15.08" Mnemonics="КУМ" Removed="false" />
+    <Test Name="Хламидии" Code="6.14.02" Mnemonics="Хламиди" Removed="false" />
+    <Test Name="Определение антител к гепапиту С" Code="5.67.01" Mnemonics="НСV" Removed="false" />
+    <Test Name="Антитела к вирусу клещевого энцефалита, IgG" Code="5.32.01" Mnemonics="Антител" Removed="false" />
+    <Test Name="Human Papillomavirus высокого канцерогенного риска(56 тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.10" Mnemonics="Human P56" Removed="false" />
+    <Test Name="Trichomonas vahinalis ДНК(реал-тайм ПЦР)" Code="6.21.01" Mnemonics="Trichom" Removed="false" />
+    <Test Name="Удельный вес" Code="2.01.11" Mnemonics="УделВес" Removed="false" />
+    <Test Name="Патогенные грибы" Code="2.07.17" Mnemonics="флора &quot;С&quot;" Removed="false" />
+    <Test Name="Тироксин свободный" Code="5.03.01" Mnemonics="Т4(свободный)" Removed="false" />
+    <Test Name="Слизь" Code="2.07.18" Mnemonics="флора &quot;С&quot;" Removed="false" />
+    <Test Name="Среднее содержание гемоглобина (HCH)" Code="1.01.06" Mnemonics="HCH" Removed="false" />
+    <Test Name="Ключевые клетки" Code="2.07.15" Mnemonics="флора &quot;С&quot;" Removed="false" />
+    <Test Name="Тиреотропный гормон" Code="5.02.01" Mnemonics="ТТГ" Removed="false" />
+    <Test Name="Trichomonas vaginalis" Code="2.07.16" Mnemonics="флора &quot;С&quot;" Removed="false" />
+    <Test Name="Индекс распределения эритроцитов(RDW-SD)" Code="1.01.08" Mnemonics="RDW-SD" Removed="false" />
+    <Test Name="Средняя концентрация гемоглобина (MCHC)" Code="1.01.07" Mnemonics="MCHC" Removed="false" />
+    <Test Name="Гонококки" Code="6.19.14" Mnemonics="Гонококки" Removed="false" />
+    <Test Name="Human Papillomavirus высокого канцерогенного риска(39 тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.06" Mnemonics="Human P39" Removed="false" />
+    <Test Name="Трихомонады" Code="6.19.13" Mnemonics="Трихомонады" Removed="false" />
+    <Test Name="Микрофлора(кокки)" Code="2.07.04" Mnemonics="флора&quot;U&quot;" Removed="false" />
+    <Test Name="Антитела к вирусу паротита, IgG (Mumps Virus, IgG)" Code="5.30.01" Mnemonics="Антител" Removed="false" />
+    <Test Name="Глюкоза" Code="4.01.01" Mnemonics="Глюкоза" Removed="false" />
+    <Test Name="Диплококки" Code="2.07.05" Mnemonics="флора&quot;U&quot;" Removed="false" />
+    <Test Name="Общий белок" Code="4.02.01" Mnemonics="ОбщБел" Removed="false" />
+    <Test Name="Консистенция" Code="2.15.03" Mnemonics="Консист" Removed="false" />
+    <Test Name="Микрофлора(палочки)" Code="2.07.03" Mnemonics="флора&quot;U&quot;" Removed="false" />
+    <Test Name="Human Papillomavirus высокого канцерогенного риска(45тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.07" Mnemonics="Human P45" Removed="false" />
+    <Test Name="Канидида" Code="6.19.15" Mnemonics="Канидида" Removed="false" />
+    <Test Name="Лейкоциты" Code="2.07.10" Mnemonics="флора &quot;С&quot;" Removed="false" />
+    <Test Name="Слизь" Code="2.07.09" Mnemonics="флора&quot;U&quot;" Removed="false" />
+    <Test Name="Грибки" Code="2.15.07" Mnemonics="грибки" Removed="false" />
+    <Test Name="Индекс распределения эритроцитов(RDW-CV)" Code="1.01.09" Mnemonics="RDW-SV" Removed="false" />
+    <Test Name="Trichomonas vaginalis" Code="2.07.07" Mnemonics="флора&quot;U&quot;" Removed="false" />
+    <Test Name="Лейкоциты" Code="2.15.05" Mnemonics="лейкоцтп/зр" Removed="false" />
+    <Test Name="Антитела к вирусу паротита, IgM (Mumps Virus, IgM)" Code="5.31.01" Mnemonics="Антител" Removed="false" />
+    <Test Name="Эпителий плоский" Code="2.15.06" Mnemonics="эпителтп/зр" Removed="false" />
+    <Test Name="Ключевые клетки" Code="2.07.06" Mnemonics="флора&quot;U&quot;" Removed="false" />
+    <Test Name="Запах" Code="2.15.04" Mnemonics="Запах" Removed="false" />
+    <Test Name="Патогенные грибы" Code="2.07.08" Mnemonics="флора&quot;U&quot;" Removed="false" />
+    <Test Name="Определение антител к ВИЧ типов 1,2 и антигена р24" Code="5.66.01" Mnemonics="ВИЧ" Removed="false" />
+    <Test Name="Opisthorhis IgG,Toxocara IgG,Trichinella IgG,Echinococcus IgG" Code="5.75.01" Mnemonics="Гельминты" Removed="false" />
+    <Test Name="Human Papillomavirus высокого канцерогенного риска(33 тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.04" Mnemonics="Human P33" Removed="false" />
+    <Test Name="Микоплазма" Code="6.19.11" Mnemonics="Микоплазма" Removed="false" />
+    <Test Name="Мазок  со  слизистой оболочки носа на эозинофилы" Code="2.09.01" Mnemonics="мазок тп/зр" Removed="false" />
+    <Test Name="Энтеробактерии" Code="6.19.10" Mnemonics="Энтеробактерии" Removed="false" />
+    <Test Name="Псевдомонады" Code="6.19.09" Mnemonics="Псевдомонады" Removed="false" />
+    <Test Name=" Helicobacter pylori ДНК(реал-тайм ПЦР)" Code="6.25.01" Mnemonics="Helicob" Removed="false" />
+    <Test Name="Свободная бета-ХГЧ" Code="5.27.01" Mnemonics="ХГЧ" Removed="false" />
+    <Test Name="Toxoplasma gondii IgG/IgM (суммарные)" Code="5.57.01" Mnemonics="Toxopla" Removed="false" />
+    <Test Name="Human Papillomavirus высокого канцерогенного риска(35 тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.05" Mnemonics="Human P35" Removed="false" />
+    <Test Name="Treponema pallidum,антитела" Code="5.76.01" Mnemonics="Trepone" Removed="false" />
+    <Test Name="Хламидии" Code="6.19.12" Mnemonics="Хламидии" Removed="false" />
+    <Test Name="Кал на скрытую кровь" Code="2.11.01" Mnemonics="СкрытКровь" Removed="false" />
+    <Test Name="Энтеробиоз(Enterobios vermicularis)" Code="2.10.01" Mnemonics="энтероб" Removed="false" />
+    <Test Name="Антитела к вирусу кори, IgG (Measles Virus,IgG)" Code="5.29.01" Mnemonics="Антител" Removed="false" />
+    <Test Name="подсчет количества эритроцитов с базафильной зернистостью" Code="1.04.01" Mnemonics="подсчет" Removed="false" />
+    <Test Name="Характер" Code="2.15.02" Mnemonics="Характер" Removed="false" />
+    <Test Name="Эхинококк-IgG" Code="5.58.01" Mnemonics="Эхиноко" Removed="false" />
+    <Test Name="Антитела к вирусу краснухи (IgG)" Code="5.28.01" Mnemonics="Антител" Removed="false" />
+    <Test Name="Гемоглобин(HGB)" Code="1.01.03" Mnemonics="HGB" Removed="false" />
+    <Test Name=" ЦМВ ДНК(реал-тайм ПЦР)" Code="6.24.01" Mnemonics="ЦМВ ДНК" Removed="false" />
+    <Test Name="Определение Ротовируса-антиген" Code="5.72.01" Mnemonics="Ротавир" Removed="false" />
+    <Test Name="Фузобактерии" Code="6.19.05" Mnemonics="Фузобактерии" Removed="false" />
+    <Test Name="Коренебактерии" Code="6.19.04" Mnemonics="Коренебактерии" Removed="false" />
+    <Test Name=" Neisseria gonorrhoeae ДНК(реал-тайм ПЦР)" Code="6.23.01" Mnemonics="Neisser" Removed="false" />
+    <Test Name="Спирали Куршмана" Code="2.08.10" Mnemonics="Спирали" Removed="false" />
+    <Test Name="Мозговой натрийуретический пропептид" Code="5.25.01" Mnemonics="NTproBNP" Removed="false" />
+    <Test Name="Toxoplasma gondii IgG" Code="5.55.01" Mnemonics="Toxopla" Removed="false" />
+    <Test Name="Определение Норовируса-антиген-ИФА" Code="5.74.01" Mnemonics="Норовир" Removed="false" />
+    <Test Name="Липаза" Code="4.32.01" Mnemonics="Липаза" Removed="false" />
+    <Test Name="Human Papillomavirus высокого канцерогенного риска(18 тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.02" Mnemonics="Human P18" Removed="false" />
+    <Test Name="Энтерококки" Code="6.19.08" Mnemonics="Энтерококки" Removed="false" />
+    <Test Name="Определение Аденовируса-антиген-ИФА" Code="5.73.01" Mnemonics="Аденовир" Removed="false" />
+    <Test Name="Бактероиды" Code="6.19.07" Mnemonics="Бактероиды" Removed="false" />
+    <Test Name="Хлориды" Code="4.31.01" Mnemonics="Cl" Removed="false" />
+    <Test Name="Human Papillomavirus высокого канцерогенного риска(16 тип), ДНК генотипирование (реал-тайм ПЦР)." Code="6.16.01" Mnemonics="Human P16" Removed="false" />
+    <Test Name="Гарднереллы" Code="6.19.06" Mnemonics="Гарднереллы" Removed="false" />
+    <Test Name="Бета-субъединица хорионического гонадотропина человека" Code="5.26.01" Mnemonics="ХГЧ" Removed="false" />
+    <Test Name="Цвет" Code="2.15.01" Mnemonics="Цвет" Removed="false" />
+    <Test Name="Атипичные клетки" Code="2.08.12" Mnemonics="Атипичн" Removed="false" />
+    <Test Name="Лактат" Code="4.33.01" Mnemonics="Лактат" Removed="false" />
+    <Test Name="Toxoplasma gondii IgM" Code="5.56.01" Mnemonics="Toxopla" Removed="false" />
+    <Test Name="Гематокрит(HCT)" Code="1.01.04" Mnemonics="HCT" Removed="false" />
+    <Test Name="Эластичные волокна" Code="2.08.11" Mnemonics="эластич" Removed="false" />
+    <Test Name="SARS-COV-2 IgG" Code="5.69.01" Mnemonics="SARS-CO" Removed="false" />
+    <Test Name="Лактобактерии" Code="6.19.01" Mnemonics="Лактобактерии" Removed="false" />
+    <Test Name="Уреаплазма парвум" Code="6.15.10" Mnemonics="УреаПарв" Removed="false" />
+    <Test Name="Фосфор" Code="4.29.01" Mnemonics="P" Removed="false" />
+    <Test Name="Lamblia intestinalis IgG/IgM (суммарные)" Code="5.52.01" Mnemonics="Lamblia" Removed="false" />
+    <Test Name="Определение антител IgG к  Helicobacter pilori" Code="5.71.01" Mnemonics="Helico" Removed="false" />
+    <Test Name="Альфа-фетопротеин" Code="5.23.01" Mnemonics="АФП" Removed="false" />
+    <Test Name="SARS-COV-2 IgM" Code="5.70.01" Mnemonics="SARS-CO" Removed="false" />
+    <Test Name="Стрептококки" Code="6.19.03" Mnemonics="Стрептококки" Removed="false" />
+    <Test Name="Стафилококки" Code="6.19.02" Mnemonics="Стафилококки" Removed="false" />
+    <Test Name="Магний" Code="4.28.01" Mnemonics="Mg" Removed="false" />
+    <Test Name="Lamblia intestinalis IgM-лямблии" Code="5.54.01" Mnemonics="Lamblia" Removed="false" />
+    <Test Name="Определение нейронспецифической енолазы -ИФА" Code="5.24.01" Mnemonics="NSE" Removed="false" />
+    <Test Name="Lamblia intestinalis IgG/IgM (суммарные)" Code="5.53.01" Mnemonics="Lamblia" Removed="false" />
+    <Test Name="Цинк" Code="4.30.01" Mnemonics="Zn" Removed="false" />
+    <Test Name="Toxocara,IgG" Code="5.49.01" Mnemonics="Toxocar" Removed="false" />
+    <Test Name="Микоплазма хоминис" Code="6.15.08" Mnemonics="МикоплХом" Removed="false" />
+    <Test Name="Железо" Code="4.25.01" Mnemonics="Fe" Removed="false" />
+    <Test Name="Лейкоциты" Code="2.01.10" Mnemonics="ЛейкМоч" Removed="false" />
+    <Test Name="Тестостерон" Code="5.64.01" Mnemonics="Тест" Removed="false" />
+    <Test Name="Staphylococcus aureus/mekA/LukS-PV LYR ДНК (РТ-ПЦР)" Code="6.18.01" Mnemonics="Staphyl" Removed="false" />
+    <Test Name="Уреаплазма уреалитикум" Code="6.15.09" Mnemonics="УреаУреа" Removed="false" />
+    <Test Name="Пролактин" Code="5.63.01" Mnemonics="Пролак" Removed="false" />
+    <Test Name="Ureaplasma urealyticum,ДНК(реал-тайм ПЦР)" Code="6.17.01" Mnemonics="Ureapla" Removed="false" />
+    <Test Name="Мочевина" Code="4.20.01" Mnemonics="Мочевина" Removed="false" />
+    <Test Name="Простатспецифический антиген общий" Code="5.22.01" Mnemonics="ПСА (общий)" Removed="false" />
+    <Test Name="Ascaris Lumbricoides,IgG" Code="5.51.01" Mnemonics="Ascaris" Removed="false" />
+    <Test Name="СА 72-4" Code="5.21.01" Mnemonics="СА 72-тЕд/мл" Removed="false" />
+    <Test Name="СА 19-9" Code="5.20.01" Mnemonics="СА 19-тЕд/мл" Removed="false" />
+    <Test Name="Кальций" Code="4.27.01" Mnemonics="Ca" Removed="false" />
+    <Test Name="Trichinella,IgG" Code="5.50.01" Mnemonics="Trichin" Removed="false" />
+    <Test Name="Кортизол" Code="5.65.01" Mnemonics="Кор" Removed="false" />
+    <Test Name="Эритроциты (RBC)" Code="1.01.02" Mnemonics="RBC" Removed="false" />
+    <Test Name="Амилоидные тельца" Code="2.06.06" Mnemonics="амилоитп/зр" Removed="false" />
+    <Test Name="Лейкоциты (WBC)" Code="1.01.01" Mnemonics="WBC" Removed="false" />
+    <Test Name="Эпителиальные клетки" Code="2.06.05" Mnemonics="Эпителтп/зр" Removed="false" />
+    <Test Name="Креатинкиназа" Code="4.13.01" Mnemonics="КФК" Removed="false" />
+    <Test Name="Лютеинизирующий гормон" Code="5.59.01" Mnemonics="ЛГ" Removed="false" />
+    <Test Name="ТрихомонадаМикоплазма гениталиум" Code="6.15.07" Mnemonics="МикоплГенит" Removed="false" />
+    <Test Name="Эпителий цилиндрический" Code="2.07.02" Mnemonics="флора&quot;U&quot;" Removed="false" />
+    <Test Name="Нитриты" Code="2.01.09" Mnemonics="Нитриты" Removed="false" />
+    <Test Name="Лецитиновые зерна" Code="2.06.08" Mnemonics="лецититп/зр" Removed="false" />
+    <Test Name="Лейкоциты" Code="2.07.01" Mnemonics="флора&quot;U&quot;" Removed="false" />
+    <Test Name="Трихомонада" Code="6.15.06" Mnemonics="Трихомонада" Removed="false" />
+    <Test Name="Макрофаги" Code="2.06.07" Mnemonics="макрофтп/зр" Removed="false" />
+    <Test Name="Эстрадиол" Code="5.62.01" Mnemonics="ЭСТ" Removed="false" />
+    <Test Name="Opisthorchis,IgG" Code="5.48.01" Mnemonics="Opistho" Removed="false" />
+    <Test Name="Прогестерон" Code="5.61.01" Mnemonics="Прогес" Removed="false" />
+    <Test Name="Креатинкиназа МВ" Code="4.19.01" Mnemonics="КФК-МВ" Removed="false" />
+    <Test Name="Аспергилл-(Aspergillus) IgG" Code="5.47.01" Mnemonics="Асперги" Removed="false" />
+    <Test Name="Фоликулостимулирующий гормон" Code="5.60.01" Mnemonics="ФСГ" Removed="false" />
+    <Test Name="Цвет" Code="2.06.01" Mnemonics="Цвет" Removed="false" />
+    <Test Name="Уровень РН" Code="2.01.08" Mnemonics="Phмоч" Removed="false" />
+    <Test Name="Слизь" Code="2.06.03" Mnemonics="Слизь" Removed="false" />
+    <Test Name="Лактатдегидрогеназа" Code="4.17.01" Mnemonics="ЛДГ" Removed="false" />
+    <Test Name="Эритроциты" Code="2.06.04" Mnemonics="эритротп/зр" Removed="false" />
+    <Test Name="Запах" Code="2.06.02" Mnemonics="Запах" Removed="false" />
+    <Test Name="Кандида- IgМ-ИФА" Code="5.46.01" Mnemonics="Кандида" Removed="false" />
+    <Test Name="Кандида- IgG" Code="5.45.01" Mnemonics="Кандида" Removed="false" />
+    <Test Name="Neisseria meningitidis,антитела методом РНГА" Code="5.44.01" Mnemonics="Neisser" Removed="false" />
+    <Test Name="Щелочная  фосфатаза" Code="4.18.01" Mnemonics="ЩФ" Removed="false" />
+    <Test Name="HCV,РНК количественно(реал-тайм ПЦР)" Code="6.10.01" Mnemonics="HCV,РНт" Removed="false" />
+    <Test Name="РНК короновируса SARS-CoV-2 (реал-тайм ПЦР)" Code="6.09.01" Mnemonics="РНК кот" Removed="false" />
+    <Test Name="Грамм(-)диплококки" Code="2.05.09" Mnemonics="Грамм(тп/зр" Removed="false" />
+    <Test Name="Лейкоциты" Code="2.08.05" Mnemonics="лейкоцтп/зр" Removed="false" />
+    <Test Name="Альвеолярные макрофаги" Code="2.08.07" Mnemonics="альвеотп/зр" Removed="false" />
+    <Test Name="Моноциты(MONO)abs" Code="1.01.16" Mnemonics="(MONO)abs" Removed="false" />
+    <Test Name="Гамма-глютамилтрансфераза" Code="4.14.01" Mnemonics="ГГТ" Removed="false" />
+    <Test Name="Trichomonas vaginalis" Code="2.05.12" Mnemonics="Trichomп/зр" Removed="false" />
+    <Test Name="Диплококки внутриклеточно" Code="2.05.11" Mnemonics="Диплоктп/зр" Removed="false" />
+    <Test Name="Кристаллы Шарко-Лейдена" Code="2.08.09" Mnemonics="Кристал" Removed="false" />
+    <Test Name="Споры и псевдомицелий Candida" Code="2.05.10" Mnemonics="Споры тп/зр" Removed="false" />
+    <Test Name="Эритроциты" Code="2.08.06" Mnemonics="эритротп/зр" Removed="false" />
+    <Test Name="Эпителий плоский" Code="2.08.08" Mnemonics="эпителтп/зр" Removed="false" />
+    <Test Name="Амилаза панкреатическая" Code="4.16.01" Mnemonics="АмилПанкр" Removed="false" />
+    <Test Name="Gardnerella vaginalis,ДНК (реал-тайм ПЦР)" Code="6.13.01" Mnemonics="Gardneт" Removed="false" />
+    <Test Name="Амилаза" Code="4.15.01" Mnemonics="Амилаза" Removed="false" />
+    <Test Name="Кровь" Code="2.01.07" Mnemonics="Кровь" Removed="false" />
+    <Test Name="Протеины (альбумины)" Code="2.01.06" Mnemonics="ПротАльб" Removed="false" />
+    <Test Name="Candida albicans,ДНК (реал-тайм ПЦР)" Code="6.12.01" Mnemonics="Candidт" Removed="false" />
+    <Test Name="Treponema pallidum,ДНК (реал-тайм ПЦР)" Code="6.11.01" Mnemonics="Treponт" Removed="false" />
+    <Test Name="Грамм(+)кокки" Code="2.05.04" Mnemonics="Грамм(тп/зр" Removed="false" />
+    <Test Name="Консистенция" Code="2.08.03" Mnemonics="Консист" Removed="false" />
+    <Test Name="Ascaris lumbricoides" Code="2.03.13" Mnemonics="Ascariт" Removed="false" />
+    <Test Name="Грамм(+)диплококки" Code="2.05.08" Mnemonics="Грамм(тп/зр" Removed="false" />
+    <Test Name="Trichostrongylidae" Code="2.03.14" Mnemonics="Trichoт" Removed="false" />
+    <Test Name="Аланинаминотрасфераза" Code="4.10.01" Mnemonics="АЛТ" Removed="false" />
+    <Test Name="Ураты" Code="2.01.27" Mnemonics="Ураты" Removed="false" />
+    <Test Name="Грамм(-)палочки" Code="2.05.07" Mnemonics="Грамм(тп/зр" Removed="false" />
+    <Test Name="АЛТ" Code="4.1" Mnemonics="АЛТ" Removed="false" />
+    <Test Name="Грамм(+)палочки" Code="2.05.06" Mnemonics="Грамм(тп/зр" Removed="false" />
+    <Test Name="Грамм(-)кокки" Code="2.05.05" Mnemonics="Грамм(тп/зр" Removed="false" />
+    <Test Name="Запах" Code="2.08.04" Mnemonics="Запах" Removed="false" />
+    <Test Name="Herpes Simplex Virus2,ДНК(реал-тайм ПЦР)" Code="6.08.01" Mnemonics="Herpesт" Removed="false" />
+    <Test Name="Мочевая кислота" Code="4.12.01" Mnemonics="МочевКисл" Removed="false" />
+    <Test Name="Herpes Simplex Virus 1,ДНК(реал-тайм ПЦР)" Code="6.07.01" Mnemonics="Herpesт" Removed="false" />
+    <Test Name="Аспартатаминотрасфераза" Code="4.11.01" Mnemonics="АСТ" Removed="false" />
+    <Test Name="Mycoplasma hominis,ДНК(реал-тайм ПЦР)" Code="6.06.01" Mnemonics="Mycoplт" Removed="false" />
+    <Test Name="Глюкоза" Code="2.01.05" Mnemonics="ГлюкМоч" Removed="false" />
+    <Test Name="Ancylostoma duodenale" Code="2.03.15" Mnemonics="Ancyloт" Removed="false" />
+    <Test Name="Триглицериды" Code="4.07.01" Mnemonics="триглиц" Removed="false" />
+    <Test Name="Скорость оседания эритроцитов(СОЭ) по Панченкову" Code="1.01.24" Mnemonics="СОЭ" Removed="false" />
+    <Test Name="Клетки эпителия" Code="2.05.02" Mnemonics="клеткитп/зр" Removed="false" />
+    <Test Name="СА-125" Code="5.17.01" Mnemonics="СА-125тЕд/мл" Removed="false" />
+    <Test Name="Клетки эпителия" Code="2.05.02.1" Mnemonics="клеткитп/зр" Removed="false" />
+    <Test Name="Hymenolepis  diminuta" Code="2.03.10" Mnemonics="Hymenoт" Removed="false" />
+    <Test Name="СА 15-3" Code="5.19.01" Mnemonics="СА 15-тЕд/мл" Removed="false" />
+    <Test Name="Характер" Code="2.08.02" Mnemonics="Характер" Removed="false" />
+    <Test Name="НЕ 4" Code="5.18.01" Mnemonics="НЕ 4" Removed="false" />
+    <Test Name="Липопротеины низкой плотности" Code="4.09.01" Mnemonics="ЛНП" Removed="false" />
+    <Test Name="Аскорбиновая кислота" Code="2.01.04" Mnemonics="АскорбК-та" Removed="false" />
+    <Test Name="Enterobius  vermicularis" Code="2.03.12" Mnemonics="Enteroт" Removed="false" />
+    <Test Name="Аморфные фосфаты" Code="2.01.26" Mnemonics="АморфФос" Removed="false" />
+    <Test Name="Trichocephalus  trichiurus" Code="2.03.11" Mnemonics="Trichoт" Removed="false" />
+    <Test Name="Липопротеины высокой плотности" Code="4.08.01" Mnemonics="ЛВП" Removed="false" />
+    <Test Name="Кристаллы оксалата кальция" Code="2.01.24" Mnemonics="КристОкс" Removed="false" />
+    <Test Name="Кристаллы мочевой кислоты" Code="2.01.25" Mnemonics="КрмстМочК" Removed="false" />
+    <Test Name="Слизь" Code="2.05.03" Mnemonics="Слизь" Removed="false" />
+    <Test Name="Хламидии" Code="6.15.04" Mnemonics="Хламидии" Removed="false" />
+    <Test Name="Общий билирубин" Code="4.04.01" Mnemonics="общийБил" Removed="false" />
+    <Test Name="Уробилиноген" Code="2.01.02" Mnemonics="Уробил" Removed="false" />
+    <Test Name="Гонококк" Code="6.15.05" Mnemonics="Гонококк" Removed="false" />
+    <Test Name="Nanophyetus  schikhobalowi" Code="2.03.06" Mnemonics="Nanophт" Removed="false" />
+    <Test Name="Цвет" Code="2.08.01" Mnemonics="Цвет" Removed="false" />
+    <Test Name="Раковый эмбриональный антиген" Code="5.16.01" Mnemonics="РЭА" Removed="false" />
+    <Test Name="Зернистые цилиндры" Code="2.01.22" Mnemonics="ЗернЦил" Removed="false" />
+    <Test Name="Пепсиноген 2" Code="5.15.01" Mnemonics="Пепсинтмкг/л" Removed="false" />
+    <Test Name="Антитела к бледной трепонеме (Treponema pallidum)" Code="5.77.01" Mnemonics="РПГА" Removed="false" />
+    <Test Name="Эритроциты" Code="2.04.09" Mnemonics="эритротп/зр" Removed="false" />
+    <Test Name="Антитела против кардиолипина" Code="5.78.01" Mnemonics="RPR" Removed="false" />
+    <Test Name="Лейкоциты" Code="2.04.08" Mnemonics="лейкоцтп/зр" Removed="false" />
+    <Test Name="Микрофлора(кокки)" Code="2.07.13.1" Mnemonics="флора &quot;С&quot;" Removed="false" />
+    <Test Name="Пепсиноген 1" Code="5.14.01" Mnemonics="Пепсинтмкг/л" Removed="false" />
+    <Test Name="Общий холестерин" Code="4.06.01" Mnemonics="ХолестОб" Removed="false" />
+    <Test Name="Трипельфосфаты" Code="2.01.23" Mnemonics="Трипельф" Removed="false" />
+    <Test Name="Кетоны" Code="2.01.03" Mnemonics="Кетоны" Removed="false" />
+    <Test Name="Diphyllobothrium latum" Code="2.03.09" Mnemonics="Diphylт" Removed="false" />
+    <Test Name="Прямой билирубин" Code="4.05.01" Mnemonics="прямБил" Removed="false" />
+    <Test Name="Taenia solium" Code="2.03.07" Mnemonics="Taeniaт" Removed="false" />
+    <Test Name="Taeniarhynehus saginatus" Code="2.03.08" Mnemonics="Taeniaт" Removed="false" />
+    <Test Name="Лейкоциты" Code="2.05.01" Mnemonics="Лейкоц" Removed="false" />
+    <Test Name="Лимфоциты(LYMР%)" Code="1.01.20" Mnemonics="(LYMР%)" Removed="false" />
+    <Test Name="Базофилы(BASO)abs" Code="1.01.18" Mnemonics="(BASO)abs" Removed="false" />
+    <Test Name="Нейтрофилы(NEUT%)" Code="1.01.19" Mnemonics="(NEUT%)" Removed="false" />
+    <Test Name="Кандида" Code="6.15.03" Mnemonics="Кандида" Removed="false" />
+    <Test Name="Бактериальный вагиноз" Code="6.15.02" Mnemonics="БакВагиноз" Removed="false" />
+    <Test Name="Лактобактерии" Code="6.15.01" Mnemonics="ЛактобтКОЕ/мл" Removed="false" />
+    <Test Name="Эпителий цилиндрический" Code="2.07.11.1" Mnemonics="флора &quot;С&quot;" Removed="false" />
+    <Test Name="Opisthorchis  felinens" Code="2.03.03" Mnemonics="Opisthт" Removed="false" />
+    <Test Name="Мышечные волокна" Code="2.04.04" Mnemonics="мышечнтп/зр" Removed="false" />
+    <Test Name="Varictlla Zoster Virus IgM (ветреная оспа и опоясывающий лишай)" Code="5.43.01" Mnemonics="Varicel" Removed="false" />
+    <Test Name="Инсулин" Code="5.12.01" Mnemonics="ИнсулитмкЕД/мл" Removed="false" />
+    <Test Name="Патогенные грибы" Code="2.07.26.1" Mnemonics="флора&quot;V&quot;" Removed="false" />
+    <Test Name="Форма" Code="2.04.03" Mnemonics="Форма" Removed="false" />
+    <Test Name="Varicella Zoster Virus IgG (ветреная оспа и опоясывающий лишай)" Code="5.42.01" Mnemonics="Varicel" Removed="false" />
+    <Test Name="Прокальцитонин" Code="5.11.01" Mnemonics="Прокалтнг/мл" Removed="false" />
+    <Test Name="Fasciola  hepatika" Code="2.03.05" Mnemonics="Fascioт" Removed="false" />
+    <Test Name="Растительная клетчатка перевариваемая" Code="2.04.06" Mnemonics="Раститтп/зр" Removed="false" />
+    <Test Name="Растительная клетчатка неперевариваемая" Code="2.04.05" Mnemonics="Раститтп/зр" Removed="false" />
+    <Test Name="Креатинин" Code="4.03.01" Mnemonics="Креат-н" Removed="false" />
+    <Test Name="С-пептид" Code="5.13.01" Mnemonics="С-пепттнг/мл" Removed="false" />
+    <Test Name="Гиалиновые цилиндры" Code="2.01.21" Mnemonics="ГиалЦил" Removed="false" />
+    <Test Name="Dicrocoelium  lanceatum" Code="2.03.04" Mnemonics="Dicrocт" Removed="false" />
+    <Test Name="Крахмальные зерна" Code="2.04.07" Mnemonics="крахматп/зр" Removed="false" />
+    <Test Name="Базофилы(BASO%)" Code="1.01.23" Mnemonics="(BASO%)" Removed="false" />
+    <Test Name="Цвет" Code="2.01.00" Mnemonics="ЦветМочи" Removed="false" />
+    <Test Name="Эозинофилы(EO%)" Code="1.01.22" Mnemonics="(EO%)" Removed="false" />
+    <Test Name="С-реактивный белок" Code="4.35.01" Mnemonics="CРБ" Removed="false" />
+    <Test Name="Бактерии" Code="2.01.19" Mnemonics="БакМоч" Removed="false" />
+    <Test Name="Антитела к вирусу простого герпеса I-II типов (IgG)" Code="5.39.01" Mnemonics="Антител" Removed="false" />
+    <Test Name="Моноциты(MONO%)" Code="1.01.21" Mnemonics="(MONO%)" Removed="false" />
+    <Test Name="Цвет" Code="2.04.01" Mnemonics="ЦветКал" Removed="false" />
+    <Test Name="Кальцитонин" Code="5.10.01" Mnemonics="Кальцитпг/мл" Removed="false" />
+    <Test Name="HHV-8-IgG (герпес-8 типа)" Code="5.41.01" Mnemonics="HHV-8-I" Removed="false" />
+    <Test Name="Кал на яйца и личинки гельминтов,простейших и их цисты (Parasep)" Code="2.13.01" Mnemonics="Я/гельм" Removed="false" />
+    <Test Name="Слизь" Code="2.07.36" Mnemonics="флора&quot;R&quot;" Removed="false" />
+    <Test Name="Патогенные грибы" Code="2.07.08.1" Mnemonics="флора&quot;U&quot;" Removed="false" />
+    <Test Name="Антитела к тиреоидной пероксидазе" Code="5.09.01" Mnemonics="Анти-ТПО" Removed="false" />
+    <Test Name="HHV-6-IgG(герпес-6 типа)" Code="5.40.01" Mnemonics="HHV-6-I" Removed="false" />
+    <Test Name="Necator americanus" Code="2.03.16" Mnemonics="Necatoт" Removed="false" />
+    <Test Name="Патогенные грибы" Code="2.07.35" Mnemonics="флора&quot;R&quot;" Removed="false" />
+    <Test Name="Билирубин" Code="2.01.01" Mnemonics="Билир" Removed="false" />
+    <Test Name="Слизь" Code="2.01.20" Mnemonics="Слизь" Removed="false" />
+    <Test Name="Lambilia intestinalis" Code="2.03.01" Mnemonics="Lambilт" Removed="false" />
+    <Test Name="Entamoeba" Code="2.03.02" Mnemonics="Entamoт" Removed="false" />
+    <Test Name="Цитологическое заключение" Code="2.14.01" Mnemonics="ЦитЗакл" Removed="false" />
+    <Test Name="Ревматоидный фактор" Code="4.36.01" Mnemonics="РФ" Removed="false" />
+    <Test Name="Консистенция" Code="2.04.02" Mnemonics="КонсКал" Removed="false" />
+    <Test Name="Ферритин" Code="5.01.01" Mnemonics="ферритин" Removed="false" />
+    <Test Name="Патогенные грибы" Code="2.07.17.1" Mnemonics="флора &quot;С&quot;" Removed="false" />
+    <Test Name="Грибки" Code="2.15.07" Mnemonics="грибки" Removed="true" />
+    <Test Name="Лейкоциты" Code="2.08.05." Mnemonics="лейкоц" Removed="true" />
+    <Test Name="Кристаллы Шарко-Лейдена" Code="2.08.09" Mnemonics="" Removed="true" />
+    <Test Name="Лейкоциты" Code="2.08.05" Mnemonics="лейкоц" Removed="true" />
+  </Tests>
+</TestsDictionary>

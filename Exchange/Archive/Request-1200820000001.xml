@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Request xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RequestCode>1200820000001</RequestCode>
+  <HospitalCode>1</HospitalCode>
+  <DepartmentCode>001</DepartmentCode>
+  <DepartmentName>TEST</DepartmentName>
+  <SamplingDate>2020-08-20T19:39:21.649623+05:00</SamplingDate>
+  <Patient>
+    <Code>1/2020</Code>
+    <FirstName>ЕЛЕНА</FirstName>
+    <LastName>1ТЕСТОВА</LastName>
+    <MiddleName>ОЛЕГОВНА</MiddleName>
+    <BirthDay>17</BirthDay>
+    <BirthMonth>4</BirthMonth>
+    <BirthYear>1998</BirthYear>
+    <Sex>2</Sex>
+    <City>Москва</City>
+    <Street>пр-кт Вернадского</Street>
+    <Building>12</Building>
+    <Flat>124</Flat>
+  </Patient>
+  <Samples>
+    <Sample>
+      <BiomaterialCode>2</BiomaterialCode>
+      <Barcode>1200820000001</Barcode>
+      <Targets>
+        <Target>
+          <Code>1.10</Code>
+        </Target>
+        <Target>
+          <Code>1.12</Code>
+        </Target>
+      </Targets>
+    </Sample>
+    <Sample>
+      <BiomaterialCode>10</BiomaterialCode>
+      <Barcode>1200820000002</Barcode>
+      <Targets>
+        <Target>
+          <Code>6.12</Code>
+        </Target>
+        <Target>
+          <Code>6.13</Code>
+        </Target>
+      </Targets>
+    </Sample>
+  </Samples>
+  <Email>test1@ya.ru</Email>
+</Request>
