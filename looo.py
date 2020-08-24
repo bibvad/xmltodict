@@ -47,8 +47,7 @@ class BufferingSMTPHandler(logging.handlers.BufferingHandler):
 logger = logging.getLogger()
 
 #smtp_handler = BufferingSMTPHandler(**params)
-smtp_handler = BufferingSMTPHandler\
-        (
+smtp_handler = BufferingSMTPHandler(
     mailhost=("smtp.gmail.com", 587),
     fromaddr='bibvad@gmail.com',
     toaddrs=['bibvad@mail.ru'],
