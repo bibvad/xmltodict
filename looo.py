@@ -41,7 +41,14 @@ class BufferingSMTPHandler(logging.handlers.BufferingHandler):
             self.buffer = []
 
 
-params = dict(
+
+
+
+logger = logging.getLogger()
+
+#smtp_handler = BufferingSMTPHandler(**params)
+smtp_handler = BufferingSMTPHandler\
+        (
     mailhost=("smtp.gmail.com", 587),
     fromaddr='bibvad@gmail.com',
     toaddrs=['bibvad@mail.ru'],
@@ -49,11 +56,6 @@ params = dict(
     credentials=('bibvad@gmail.com', 'qoadpjypdywgnakc'),
     capacity=60
 )
-
-
-logger = logging.getLogger()
-
-smtp_handler = BufferingSMTPHandler(**params)
 smtp_handler.setLevel(logging.DEBUG)
 logger.addHandler(smtp_handler)
 
